@@ -19,3 +19,16 @@
 .map__img path:hover{
     fill: lightcoral;
 }
+
+#B1{
+    background-color: lightgrey;
+    border-radius: 70%;
+}
+
+#B2{
+    background-color: lightgray;
+    border-radius: 70%;
+}
+
+
+
