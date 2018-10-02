@@ -11,11 +11,11 @@
 .map__img path{
     fill: lightgrey;
     stroke: white;
-    stroke-width: 2px;
+    stroke-width: 1px;
     transition: fill 0.3s;
 }
 
 
 .map__img path:hover{
-    fill: blue;
+    fill: lightcoral;
 }
