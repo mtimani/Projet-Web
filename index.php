@@ -9,6 +9,7 @@
 
 <body>
     <h1>Semèstre à l'étranger</h1>
+    <a href="map_ps.php">map</a>
 </body>
 
 </html>
