@@ -11,9 +11,9 @@
 
     <body>
         <div class="button">
-            <input type="button" id="B1" value="-">
-            <input type="button" id="B2" value="+">
-            <input type="button" id="B3" value="H">
+            <input type="button" class="but" id="B1" value="-">
+            <input type="button" class="but" id="B2" value="+">
+            <input type="button" class="but" id="B3" value="H">
         </div>
 
         <div class="map" id="map">
@@ -729,6 +729,7 @@
             </div>
         </div>
         <script src="map.js"></script>
+        <!--<script src="map2.js"></script>-->
     </body>
 
 </html>
