@@ -88,8 +88,6 @@ function update2() {
         VB.splice(0,4, ...cvb);
         return
     }
-
-    rID = requestAnimationFrame(update)
 }
 
 function update3(){
@@ -105,39 +103,89 @@ function update3(){
         VB.splice(0,4, ...cvb);
         return
     }
-
-    rID = requestAnimationFrame(update)
 }
 
-let buttonSelection = document.getElementsByClassName('but');
-
-buttonSelection.addEventListener('click', e => {
+function zoom_with_buttons() {
     if ((-1 === -1 && VB[2] >= DMAX[0]) ||
         (-1 === 1 && VB[2] <= WMIN)) {
         console.log('cannot zoom in or out more');
     }
-    if (e.target.id === "B1") {
+    if (this.id === "B1") {
         for (let j = 0; j < 4; j++) {
             for (let i = 0; i < 2; i++) {
-                tg[i + 2] = VB[i + 2] / Math.pow(8, -1);
+                tg[i + 2] = VB[i + 2] / Math.pow(2, -1);
                 tg[i] = 0.5 * (DMAX[i] - tg[i + 2])
             }
         }
-        update2()
+        let k = ++f/NF, j = 1 - k, cvb = VB.slice();
+
+        for(let i = 0; i < 4; i++){
+            cvb[i] = j*VB[i] + k*tg[i]
+        }
+        _SVG.setAttribute('viewBox',cvb.join(' '));
+
+        if(!(f%NF)){
+            cancelAnimationFrame(rID);
+            rID = nav = null;
+            f = 0;
+            tg = Array(4);
+            VB.splice(0,4, ...cvb);
+            return
+        }
+
+        rID = requestAnimationFrame(update2)
     }
-    else if (e.target.id === "B2"){
+    else if (this.id === "B2"){
         for (let j = 0; j < 4; j++) {
             for (let i = 0; i < 2; i++) {
-                tg[i + 2] = VB[i + 2] / Math.pow(8, 1);
+                tg[i + 2] = VB[i + 2] / Math.pow(2, 1);
                 tg[i] = 0.5 * (DMAX[i] - tg[i + 2])
             }
         }
-        update2()
+        let k = ++f/NF, j = 1 - k, cvb = VB.slice();
+
+        for(let i = 0; i < 4; i++){
+            cvb[i] = j*VB[i] + k*tg[i]
+        }
+        _SVG.setAttribute('viewBox',cvb.join(' '));
+
+        if(!(f%NF)){
+            cancelAnimationFrame(rID);
+            rID = nav = null;
+            f = 0;
+            tg = Array(4);
+            VB.splice(0,4, ...cvb);
+            return
+        }
+
+        rID = requestAnimationFrame(update2)
     }
     else {
-        update3()
+        let k = ++f/NF, j = 1 - k, cvb = VB.slice();
+
+        _SVG.setAttribute('viewBox',cvb.join(' '));
+
+        if(!(f%NF)){
+            cancelAnimationFrame(rID);
+            rID = nav = null;
+            f = 0;
+            tg = Array(4);
+            VB.splice(0,4, ...cvb);
+            return
+        }
+
+        rID = requestAnimationFrame(update3)
     }
-});
+}
+
+let buttonSelection = document.getElementsByClassName('but');
+
+for(let i = 0;i<buttonSelection.length;i++){
+    let cur_id = buttonSelection[i].id;
+    (function(id) {
+        buttonSelection[i].addEventListener('click', zoom_with_buttons);
+    })(cur_id);
+}
 
 
 
