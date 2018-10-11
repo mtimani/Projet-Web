@@ -72,3 +72,79 @@ addEventListener('keyup',e => {
     }
 },false);
 
+function update2(){
+    let k = ++f/NF, j = 1 - k, cvb = VB.slice();
+
+    for(let i = 0; i < 4; i++){
+        cvb[i] = j*VB[i] + k*tg[i]
+    }
+    _SVG.setAttribute('viewBox',cvb.join(' '));
+
+    if(!(f%NF)){
+        cancelAnimationFrame(rID);
+        rID = nav = null;
+        f = 0;
+        tg = Array(4);
+        VB.splice(0,4, ...cvb);
+        return
+    }
+
+    rID = requestAnimationFrame(update)
+}
+
+
+function update3(){
+    let k = ++f/NF, j = 1 - k, cvb = VB.slice();
+
+    _SVG.setAttribute('viewBox',cvb.join(' '));
+
+    if(!(f%NF)){
+        cancelAnimationFrame(rID);
+        rID = nav = null;
+        f = 0;
+        tg = Array(4);
+        VB.splice(0,4, ...cvb);
+        return
+    }
+
+    rID = requestAnimationFrame(update)
+}
+
+function zoom_out(){
+    if ((-1 === -1 && VB[2] >= DMAX[0]) ||
+        (-1 === 1 && VB[2] <= WMIN)) {
+        console.log('cannot zoom out more');
+    }
+    for (let j = 0; j < 4; j++) {
+        for (let i = 0; i < 2; i++) {
+            tg[i + 2] = VB[i + 2] / Math.pow(8, -1);
+            tg[i] = 0.5 * (DMAX[i] - tg[i + 2])
+        }
+    }
+    update2()
+}
+
+function zoom_in(){
+    if ((1 === -1 && VB[2] >= DMAX[0]) ||
+        (1 === 1 && VB[2] <= WMIN)) {
+        console.log('cannot zoom in more');
+    }
+    for (let j = 0; j < 4; j++) {
+        for (let i = 0; i < 2; i++) {
+            tg[i + 2] = VB[i + 2] / Math.pow(8, 1);
+            tg[i] = 0.5 * (DMAX[i] - tg[i + 2])
+        }
+    }
+    update2()
+}
+
+document.getElementById("B1").addEventListener("click",zoom_out);
+
+document.getElementById("B2").addEventListener("click",zoom_in);
+
+document.getElementById("B3").addEventListener("click",function(){
+    update3()
+});
+
+
+

@@ -10,18 +10,10 @@
     </head>
 
     <body>
-
         <div class="button">
-            <input type="button" value="-" onclick="minus()">
-            <input type="button" value="+" onclick="plus()">
-            <script>
-                function plus() {
-                    alert("Hello world!");
-                }
-                function minus(){
-                    alert("Hello world!");
-                }
-            </script>
+            <input type="button" id="B1" value="-">
+            <input type="button" id="B2" value="+">
+            <input type="button" id="B3" value="H">
         </div>
 
         <div class="map" id="map">
