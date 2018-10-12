@@ -6,6 +6,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
         <link rel="stylesheet" href="map.css"/>
+        <link rel="stylesheet" href="Zoom/dist/zoom-svg.min.css">
+        <script src="Zoom/dist/jquery.zoom-svg.min.js"></script>
+
         <title>Map</title>
     </head>
 
@@ -16,9 +19,8 @@
             <input type="button" class="but" id="B3" value="H">
         </div>
 
-        <div class="map" id="map">
-            <div class="map__img">
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:amcharts="http://amcharts.com/ammap" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 510 330" id="map_image">
+        <div class="map__img map zoom-svg-container">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:amcharts="http://amcharts.com/ammap" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 510 330" id="map_image">
                     <g>
                        <a id="AE" xlink:title="United Arab Emirates">
                            <path d="M619.87,393.72L620.37,393.57L620.48,394.41L622.67,393.93L624.99,394.01L626.68,394.1L628.6,392.03L630.7,390.05L632.47,388.15L633,389.2L633.38,391.64L631.95,391.65L631.72,393.65L632.22,394.07L630.95,394.67L630.94,395.92L630.12,397.18L630.05,398.39L629.48,399.03L621.06,397.51L619.98,394.43z"/>
@@ -726,12 +728,23 @@
 
                     </g>
                 </svg>
-            </div>
+
+            <div class="zoom-svg-zoom zoom-svg-zoom-in"> + </div>
+            <div class="zoom-svg-zoom zoom-svg-zoom-rst"> = </div>
+            <div class="zoom-svg-zoom zoom-svg-zoom-out"> - </div>
         </div>
 
         <script src="jquery-3.3.1.js"></script>
-        <script src="map.js"></script>
+        <!--<script src="map.js"></script> -->
+
         <!--<script src="map2.js"></script>-->
+        <script src="jq_src/jquery-3.3.1.js"></script>
+        <script src="jq_src/jquery-mousewheel-3.1.13/jquery.mousewheel.js"></script>
+        <script src="jq_src/jquery-ui-1.12.1/jquery-ui.js"></script>
+
+        <script type="text/javascript">
+            $("svg").zooSvg();
+        </script>
     </body>
 
 </html>
