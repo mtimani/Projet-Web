@@ -13,6 +13,11 @@
     </head>
 
     <body>
+        <script src="jq_src/jquery-3.3.1.js"></script>
+        <script src="jq_src/jquery-mousewheel-3.1.13/jquery.mousewheel.js"></script>
+        <script src="jq_src/jquery-ui-1.12.1/jquery-ui.js"></script>
+        <script src="Zoom/dist/jquery.zoom-svg.js"></script>
+
         <div class="button">
             <input type="button" class="but" id="B1" value="-">
             <input type="button" class="but" id="B2" value="+">
@@ -734,16 +739,10 @@
             <div class="zoom-svg-zoom zoom-svg-zoom-out"> - </div>
         </div>
 
-        <script src="jquery-3.3.1.js"></script>
         <!--<script src="map.js"></script> -->
-
         <!--<script src="map2.js"></script>-->
-        <script src="jq_src/jquery-3.3.1.js"></script>
-        <script src="jq_src/jquery-mousewheel-3.1.13/jquery.mousewheel.js"></script>
-        <script src="jq_src/jquery-ui-1.12.1/jquery-ui.js"></script>
-
         <script type="text/javascript">
-            $("svg").zooSvg();
+            $("svg").zoomSvg();
         </script>
     </body>
 
