@@ -10,6 +10,11 @@
     </head>
 
     <body>
+        <div class="button">
+            <input type="button" class="but" id="B1" value="-">
+            <input type="button" class="but" id="B2" value="+">
+            <input type="button" class="but" id="B3" value="H">
+        </div>
 
         <div class="map" id="map">
             <div class="map__img">
@@ -726,6 +731,7 @@
 
         <script src="jquery-3.3.1.js"></script>
         <script src="map.js"></script>
+        <!--<script src="map2.js"></script>-->
     </body>
 
 </html>

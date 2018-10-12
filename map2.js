@@ -1,8 +1,3 @@
-
-$('#map__img').on('click', function () {
-    
-});
-
 const NAV_MAP = {
         187: { dir:  1, act: 'zoom', name: 'in' } /* + */,
         61: { dir:  1, act: 'zoom', name: 'in' } /* + WTF, FF? */,
@@ -197,4 +192,3 @@ for(let i = 0;i<buttonSelection.length;i++){
 
 
 
->>>>>>> dc54dbf32926c6045c4cee5a5fa78a6af17b862a

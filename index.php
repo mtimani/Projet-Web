@@ -3,12 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Semèstre à l'étranger</title>
+    <title>Semestre à l'étranger</title>
     <link rel="stylesheet" href="app.css">
 </head>
 
 <body>
-    <h1>Semèstre à l'étranger</h1>
+    <h1>Semestre à l'étranger</h1>
+    <?php include 'map_ps.php'; ?>
 </body>
 
 </html>
