@@ -1,6 +1,4 @@
 .map__img {
-    width: 55%;
-    display: block;
     margin: auto;
     border-style: double;
     border-color: darkslategrey;
@@ -18,10 +16,71 @@
 
 .map__img path:hover{
     fill: lightcoral;
+    cursor: pointer;
 }
 
 
+/*Country with at least one partnership */
+
+.map__img #KE, #FR, #BF, #UA{
+    fill: red;
+}
+/**
+ * @license zoom-svg.css v1.0
+ * Updated: Mon Feb 20 2017
+ * First Release
+ * Copyright (c) Laurent SOUEF Consulting
+ * Released under the MIT license
+ * https://github.com/LaurentSouefConsulting/jquery.zoom-svg/blob/master/MIT-License.txt
+ */
+.zoom-svg-container {
+    position: relative;
+    display: block;
+    width: 50%;
+    height: auto;
+    overflow: hidden;
+
+}
+
+.zoom-svg-container:hover svg {
+    cursor: move;
+}
 
 
+.zoom-svg-zoom-in {
+    position: absolute;
+    top: 60px;
+    left:10px;
+}
+
+.zoom-svg-zoom-rst {
+    position: absolute;
+    top: 35px;
+    left: 10px;
+}
+
+.zoom-svg-zoom-out {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
 
 
+.button{
+    width:30px;
+    background-color: #aaaaaa;
+
+    border: 2px solid black;
+    color: white;
+    height: 22px;
+    line-height: 18px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    user-select: none;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+}

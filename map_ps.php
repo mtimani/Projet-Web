@@ -7,7 +7,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
         <link rel="stylesheet" href="map.css"/>
         <link rel="stylesheet" href="Zoom/dist/zoom-svg.min.css">
-        <script src="Zoom/dist/jquery.zoom-svg.min.js"></script>
 
         <title>Map</title>
     </head>
@@ -18,11 +17,7 @@
         <script src="jq_src/jquery-ui-1.12.1/jquery-ui.js"></script>
         <script src="Zoom/dist/jquery.zoom-svg.js"></script>
 
-        <div class="button">
-            <input type="button" class="but" id="B1" value="-">
-            <input type="button" class="but" id="B2" value="+">
-            <input type="button" class="but" id="B3" value="H">
-        </div>
+
 
         <div class="map__img map zoom-svg-container">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:amcharts="http://amcharts.com/ammap" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 1100 900" id="map_image">

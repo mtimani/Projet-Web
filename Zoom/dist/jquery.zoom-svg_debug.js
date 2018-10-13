@@ -40,10 +40,9 @@ $.fn.zoomSvg = function(options)
 
 		// Zooms
 		$(zoomIn).click(function() {
-            if(zoom+step <=350) {
+            if(zoom+step <=200) {
                 zoom += step;
             }
-
 			scale();
 		});
 
@@ -77,28 +76,44 @@ $.fn.zoomSvg = function(options)
 			else
 				$(zoomOut).trigger("click");			
 		});
-
+        var svg_width = $(svg).css("width");
+        var svg_height = $(svg).css("height");
+		console.log("initially svg_size " + svg_width + " " + svg_height);
 
 		// Functions
 		var scale = function() {
+			$(svg).css("width", zoom + "%");
+			$(svg).css("height", zoom + "%");
 
-            $(svg).css("width", zoom + "%");
-            $(svg).css("height", zoom + "%");
+            svg_width = $(svg).css("width");
+            svg_height = $(svg).css("height");
 
             var zoom_1 = (zoom / 100) - 1;
+
+            console.log("after zoom svg_size " + svg_width + " " + svg_height);
+
 
 
             var delta_top = Math.round((zoom_1 * height)/2);
             var delta_left = Math.round((zoom_1 * width)/2);
 
+            console.log("delta => " + delta_left + " " + delta_top);
+
             var div_pos = $(div).offset();
+
+            console.log("initially  div&svg_pos " + div_pos.left + " " + div_pos.top);
 
             var new_top = div_pos.top - delta_top;
             var new_left = div_pos.left - delta_left;
 
 			$(svg).offset({"top" : new_top, "left" : new_left});
 
+            console.log("after zoom  div&svg_pos " + new_left+ " " + new_top);
+			//alert(width + " " + height);
 
+			//alert(new_top+ " " + new_left);
+			//alert(svg_width+ " " +svg_height);
+           // $(svg).css({"top": new_top, "left": new_left});
 
 		};
 
