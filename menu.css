@@ -1,6 +1,9 @@
 body {font-family: Verdana;color: black; background-color: white;}
 
 
+#menu {
+	height: auto;
+}
 
 .image
 {
@@ -38,7 +41,7 @@ border-left-width: 4px;
 }
 
 
-}
+
 ul li a {
 	text-decoration: none; color:black; 
 	display:block;
@@ -68,7 +71,7 @@ ul li:hover ul li {
 	dcborder-style: inset;
 	
 
-	}
+}
 
-	#ssb1
+
 

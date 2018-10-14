@@ -8,8 +8,15 @@
 </head>
 
 <body>
-    <h1>Semestre à l'étranger</h1>
-    <?php include 'map_ps.php'; ?>
+    <div class="menu">
+        <?php include 'menu.php';?>
+    </div>
+    <div id="body">
+        <h1>Semestre à l'étranger</h1>
+        <div id="map">
+            <?php include 'map_ps.php'; ?>
+        </div>
+    </div>
 </body>
 
 </html>

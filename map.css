@@ -1,8 +1,7 @@
 .map__img {
     margin: auto;
-    border-style: double;
     border-color: darkslategrey;
-    border-width: 5px;
+    border-width: 10px;
     background-color: white;
 }
 
@@ -20,10 +19,10 @@
 }
 
 
-/*Country with at least one partnership */
+/*Countries with at least one partnership */
 
 .map__img #KE, #FR, #BF, #UA{
-    fill: red;
+    fill: deeppink;
 }
 /**
  * @license zoom-svg.css v1.0
@@ -68,14 +67,13 @@
 
 .button{
     width:30px;
-    background-color: #aaaaaa;
-
-    border: 2px solid black;
-    color: white;
+    background-color: white;
+    border: 1px solid dimgrey;
+    color: dimgrey;
     height: 22px;
     line-height: 18px;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 70%;
     font-size: 16px;
     cursor: pointer;
     outline: none;
@@ -83,4 +81,8 @@
     -webkit-user-select: none;  /* Chrome all / Safari all */
     -moz-user-select: none;     /* Firefox all */
     -ms-user-select: none;      /* IE 10+ */
+}
+
+.button:hover{
+    background-color: lightgrey;
 }
