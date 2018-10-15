@@ -4,7 +4,7 @@ html,body {
 }
 .slider {
     width: 1024px;
-    /*margin: 2em auto;*/
+    margin: 2em auto;
     position: center;
 }
 
@@ -24,6 +24,7 @@ html,body {
     transition: opacity 2s linear;
 }
 
+
 #Main{
     background-color: rgba(0,0,0,0.6);
     color: #fff;
@@ -31,6 +32,45 @@ html,body {
     margin-top: 40px;
     text-align: center;
     position: center;
+}
+
+#Main1{
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    padding: 0.5em;
+    margin-top: 40px;
+    text-align: center;
+    position: center;
+}
+
+.contact {
+    display: block;
+    border-width: initial;
+    margin-top: 40px;
+    padding: 0.5em;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.contact h1 {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.contact-form {
+    margin-left: 1em;
+    margin-right: 1em;
+    position: center;
+    justify-content: center;
+}
+
+.contact-form input {
+    position: center;
+    font-size: 15;
+    padding: 6px;
+    margin: 4px;
+    width: 100%;
 }
 
 #Block{
@@ -94,6 +134,7 @@ section h1, footer h1, nav a
 
 header
 {
+    margin-top: 40px;
     background: url('images/separateur.png') repeat-x bottom;
     display: flex;
     justify-content: space-between;
