@@ -1,15 +1,15 @@
-document.getElementById("MIC").addEventListener("click", function(){
-
+button.getElementById('MIC').addEventListener("click", function(){
+    alert("Bouton MIC a été cliqué");
 });
 
-document.getElementById("IMACS").addEventListener("click", function(){
-
+button.getElementById('IMACS').addEventListener("click", function(){
+    window.alert("Bouton IMACS a été cliqué");
 });
 
-document.getElementById("ICBE").addEventListener("click", function(){
-
+button.getElementById('ICBE').addEventListener("click", function(){
+    window.alert("Bouton ICBE a été cliqué");
 });
 
-document.getElementById("IC").addEventListener("click", function(){
-
+button.getElementById('IC').addEventListener("click", function(){
+    window.alert("Bouton IC a été cliqué");
 });
