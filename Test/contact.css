@@ -1,9 +1,7 @@
 html,body {
     margin: 0;
     padding: 0;
-
 }
-
 .slider {
     width: 1024px;
     margin: 2em auto;
@@ -32,7 +30,6 @@ html,body {
     color: #fff;
     padding: 0.5em;
     margin-top: 40px;
-    margin-bottom: 40px;
     text-align: center;
     position: center;
 }
@@ -90,9 +87,9 @@ html,body {
     font-family: 'BallparkWeiner';
     src: url('polices/ballpark.eot');
     src: url('polices/ballpark.eot?#iefix') format('embedded-opentype'),
-         url('polices/ballpark.woff') format('woff'),
-         url('polices/ballpark.ttf') format('truetype'),
-         url('polices/ballpark.svg#BallparkWeiner') format('svg');
+    url('polices/ballpark.woff') format('woff'),
+    url('polices/ballpark.ttf') format('truetype'),
+    url('polices/ballpark.svg#BallparkWeiner') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -102,9 +99,9 @@ html,body {
     font-family: 'Dayrom';
     src: url('polices/dayrom.eot');
     src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
-         url('polices/dayrom.woff') format('woff'),
-         url('polices/dayrom.ttf') format('truetype'),
-         url('polices/dayrom.svg#Dayrom') format('svg');
+    url('polices/dayrom.woff') format('woff'),
+    url('polices/dayrom.ttf') format('truetype'),
+    url('polices/dayrom.svg#Dayrom') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -152,8 +149,8 @@ header
 
 .insa
 {
-	width: 200px;
-	height:200x;
+    width: 200px;
+    height:200x;
 }
 
 
@@ -215,7 +212,7 @@ section
 article
 {
     text-align: justify;
-     margin-right: 20px;
+    margin-right: 20px;
     flex: 3;
 }
 
