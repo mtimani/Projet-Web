@@ -15,6 +15,7 @@
         <h1>Semestre à l'étranger</h1>
         <div id="map">
             <?php include 'map_ps.php'; ?>
+            <a href="./Test/semestre.php">Page AUSTIN</a>
         </div>
     </div>
 </body>
