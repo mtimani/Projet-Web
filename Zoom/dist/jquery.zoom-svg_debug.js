@@ -109,11 +109,11 @@ $.fn.zoomSvg = function(options)
 			$(svg).offset({"top" : new_top, "left" : new_left});
 
             console.log("after zoom  div&svg_pos " + new_left+ " " + new_top);
-			//alert(width + " " + height);
+			alert(width + " " + height);
 
-			//alert(new_top+ " " + new_left);
-			//alert(svg_width+ " " +svg_height);
-           // $(svg).css({"top": new_top, "left": new_left});
+			alert(new_top+ " " + new_left);
+			alert(svg_width+ " " +svg_height);
+            $(svg).css({"top": new_top, "left": new_left});
 
 		};
 

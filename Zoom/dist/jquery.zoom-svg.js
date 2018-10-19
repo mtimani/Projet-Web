@@ -102,5 +102,12 @@ $.fn.zoomSvg = function(options)
 
 		};
 
+        var resize_map = function () {
+            $(".map__img").css("width", "50%");
+            $(".map__img").css("height", "auto");
+        };
+
+        window.onresize = resize_map;
+
 	})
 };

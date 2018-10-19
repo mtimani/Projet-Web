@@ -1,8 +1,9 @@
 .map__img {
     margin: auto;
-    border-color: darkslategrey;
-    border-width: 10px;
+    border: #2c3E50 double 10px;
     background-color: white;
+    width: 750px;
+    height: auto;
 }
 
 .map__img path{
@@ -35,8 +36,8 @@
 .zoom-svg-container {
     position: relative;
     display: block;
-    width: 50%;
-    height: auto;
+   /* width: 50%;*/
+
     overflow: hidden;
 
 }
