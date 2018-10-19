@@ -12,21 +12,7 @@
 <script src="buttons.js"></script>
 <div id="bloc_page page-content-wrapper" class="container-fluid">
     <header>
-        <?php include '../menu.php';?>
-        <div id="titre">
-            <div id="Logo">
-                <img src="Insa.jpg" class="insa" alt="Logo de L'insa">
-            </div>
-        </div>
-
-        <nav>
-            <ul>
-                <li><a href="#">Accueil</a></li>
-                <li><a href="#">Université</a></li>
-                <li><a href="#">Formation</a></li>
-                <li><a href="#">Moodle</a></li>
-            </ul>
-        </nav>
+        <?php include 'menu.php';?>
     </header>
     <div class="row">
         <div class="col-lg-1 col-md-1">
