@@ -1,5 +1,12 @@
 .map__img {
     margin: auto;
+    background-color: white;
+    width: 750px;
+    height: auto;
+}
+
+#boder_map {
+    margin: auto;
     border: #2c3E50 double 10px;
     background-color: white;
     width: 750px;
@@ -87,3 +94,6 @@
 .button:hover{
     background-color: lightgrey;
 }
+
+
+.preview_

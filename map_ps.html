@@ -16,8 +16,8 @@
         <script src="Zoom/dist/jquery.zoom-svg.js"></script>
 
 
-
-        <div class="map__img zoom-svg-container">
+        <div id="boder_map">
+            <div class="map__img zoom-svg-container">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:amcharts="http://amcharts.com/ammap" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 1100 680">
                     <g>
                        <a id="AE" xlink:title="United Arab Emirates">
@@ -730,7 +730,7 @@
             <button class="button zoom-svg-zoom-rst"> = </button>
             <button class="button zoom-svg-zoom-out"> - </button>
         </div>
-
+        </div>
         <script type="text/javascript">
             $("svg").zoomSvg({
                 step:50
