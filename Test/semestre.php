@@ -12,6 +12,7 @@
 <script src="buttons.js"></script>
 <div id="bloc_page page-content-wrapper" class="container-fluid">
     <header>
+        <?php include '../menu.php';?>
         <div id="titre">
             <div id="Logo">
                 <img src="Insa.jpg" class="insa" alt="Logo de L'insa">
