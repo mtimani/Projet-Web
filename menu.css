@@ -19,7 +19,7 @@ ul{
 
 ul li {
 	float: left;
-	width: 225px;
+	width: 20%;
 	height: 20px;
 	 background-color: white;
 	opacity: 0.7;
@@ -28,15 +28,16 @@ ul li {
 	display: block;
 position: relative;
 top: 30px;
-left: 250px;
+left: 20%;
 
 	
-	dcborder-style: outset;
+	vvborder-style: outset;
 border-color: grey;
 border-top-width: 4px;
 
 border-left-width: 4px;
 text-transform: uppercase;
+ddmargin-left: 40px;
 
 }
 
@@ -50,23 +51,28 @@ ul li a {
 
 	text-align: center;
 
+
 	
 }
 
-
+ul li ul {
+	height: 100px;
+}
 
 ul li ul li {
 	display: none;
-	height: 20px;
+	height: 33%;
 	top: 7px;
 	position: relative;
-	left:-40px;
+	
 	background-color: ;
 	opacity: 0.7;
+
 	
 	
 
 }
+
 ul li:hover ul li {
 	transition: 0.7s;
 	display: block;
@@ -101,14 +107,26 @@ display: block;
 
 }
 .ssb1
-	{background-color: white;
+	{background-color: ;
 		width: 500%;
+		left:-17%;
+
+		
 		
 
 	}
 
+.ssb1:hover 
+{
 
+background-color: #A3DBE0;	
+}
 .ssb2
 {background-color: white; 
 width:500%;
-left: -263%;}
+left:-134%;
+}
+.ssb2:hover
+{
+	background-color: #75FD6D;
+}
