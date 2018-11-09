@@ -26,12 +26,6 @@
     cursor: pointer;
 }
 
-
-/*Countries with at least one partnership */
-
-.map__img #KE, #FR, #BF, #UA, #DZ{
-    fill: deeppink;
-}
 /**
  * @license zoom-svg.css v1.0
  * Updated: Mon Feb 20 2017
