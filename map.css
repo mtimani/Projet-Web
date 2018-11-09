@@ -70,12 +70,11 @@
 .button{
     width:30px;
     background-color: white;
-    border: 1px solid dimgrey;
-    color: dimgrey;
+    border: 1px solid deepskyblue;
+    color: deepskyblue;
     height: 22px;
     line-height: 18px;
     text-align: center;
-    border-radius: 70%;
     font-size: 16px;
     cursor: pointer;
     outline: none;
