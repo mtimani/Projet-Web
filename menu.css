@@ -1,0 +1,132 @@
+body {font-family: New Century;color: black; background-color: white; background: url('fond.jpeg'); }
+
+
+
+.image
+{
+
+width: 20%;
+height:auto;
+
+
+}
+
+ul{
+	margin:0px;
+	list-style: none;
+
+}
+
+ul li {
+	float: left;
+	width: 20%;
+	height: 20px;
+	 background-color: white;
+	opacity: 1;
+	
+	font-size: 14px;
+	display: block;
+position: relative;
+top: 30px;
+left: 20%;
+
+	
+	vvborder-style: outset;
+border-color: grey;
+border-top-width: 4px;
+
+border-left-width: 4px;
+text-transform: uppercase;
+ddmargin-left: 40px;
+
+}
+
+
+}
+ul li a {
+	text-decoration: none;
+	 color:black; 
+	display:block;
+	height: 20px;
+
+	text-align: center;
+
+
+	
+}
+
+ul li ul {
+	height: 100px;
+}
+
+ul li ul li {
+	display: none;
+	height: 33%;
+	top: 7px;
+	position: relative;
+	
+	background-color: ;
+	opacity: 0.7;
+
+	
+	
+
+}
+
+ul li:hover ul li {
+	transition: 0.7s;
+	display: block;
+
+	
+	
+
+	}
+
+p 
+{
+	float: left;
+display: block;
+	position:relative;
+	top: 50px;
+
+}
+
+
+.Informations
+{ border-bottom:3px solid blue;}
+
+
+	.ProcAd
+{ border-bottom:3px solid yellow;}
+
+	.Universites
+{ border-bottom:3px solid green;}
+
+	.Contact
+{ border-bottom:3px solid black;
+
+}
+.ssb1
+	{background-color: ;
+		width: 500%;
+		left:-17%;
+
+		
+		
+
+	}
+
+.ssb1:hover 
+{
+
+background-color: #A3DBE0;	
+}
+.ssb2
+{background-color: white; 
+width:500%;
+left:-134%;
+}
+.ssb2:hover
+{
+	background-color: #75FD6D;
+}
