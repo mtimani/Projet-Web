@@ -1,14 +1,14 @@
-body {font-family: Verdana;color: black; background-color: white;}
-
-
+body {
+	font-family: New Century;
+	color: black;
+	background-color: white;
+	background: url('fond.jpeg');
+}
 
 .image
 {
-
-width: 20%;
-height:auto;
-
-
+    width: 20%;
+    height:auto;
 }
 
 ul{
@@ -21,38 +21,27 @@ ul li {
 	float: left;
 	width: 20%;
 	height: 20px;
-	 background-color: white;
-	opacity: 0.7;
-	
-	font-size: 10px;
+    background-color: white;
+	opacity: 1;
+	font-size: 14px;
 	display: block;
-position: relative;
-top: 30px;
-left: 20%;
-
-	
-	vvborder-style: outset;
-border-color: grey;
-border-top-width: 4px;
-
-border-left-width: 4px;
-text-transform: uppercase;
-ddmargin-left: 40px;
-
+    position: relative;
+    top: 30px;
+    left: 20%;
+    /*border-style: outset;*/
+    border-color: grey;
+    border-top-width: 4px;
+    border-left-width: 4px;
+    text-transform: uppercase;
+    /*margin-left: 40px;*/
 }
 
-
-}
 ul li a {
 	text-decoration: none;
-	 color:black; 
+    color:black;
 	display:block;
 	height: 20px;
-
 	text-align: center;
-
-
-	
 }
 
 ul li ul {
@@ -64,69 +53,55 @@ ul li ul li {
 	height: 33%;
 	top: 7px;
 	position: relative;
-	
-	background-color: ;
+	background-color:;
 	opacity: 0.7;
-
-	
-	
-
 }
 
 ul li:hover ul li {
 	transition: 0.7s;
 	display: block;
+}
 
-	
-	
-
-	}
-
-p 
-{
+p {
 	float: left;
-display: block;
+    display: block;
 	position:relative;
 	top: 50px;
-
 }
 
 
-.Informations
-{ border-bottom:3px solid blue;}
-
-
-	.ProcAd
-{ border-bottom:3px solid yellow;}
-
-	.Universites
-{ border-bottom:3px solid green;}
-
-	.Contact
-{ border-bottom:3px solid black;
-
+.Informations {
+    border-bottom:3px solid blue;
 }
-.ssb1
-	{background-color: ;
-		width: 500%;
-		left:-17%;
 
-		
-		
 
-	}
-
-.ssb1:hover 
-{
-
-background-color: #A3DBE0;	
+.ProcAd {
+    border-bottom:3px solid yellow;
 }
-.ssb2
-{background-color: white; 
-width:500%;
-left:-134%;
+
+.Universites {
+    border-bottom:3px solid green;
 }
-.ssb2:hover
-{
+
+.Contact {
+    border-bottom:3px solid black;
+}
+
+.ssb1 {
+    width: 500%;
+    left:-17%;
+}
+
+.ssb1:hover {
+    background-color: #A3DBE0;
+}
+
+.ssb2 {
+    background-color: white;
+    width:500%;
+    left:-134%;
+}
+
+.ssb2:hover {
 	background-color: #75FD6D;
 }

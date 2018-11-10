@@ -5,7 +5,7 @@
     height: auto;
 }
 
-#boder_map {
+#border_map {
     margin: auto;
     border: #2c3E50 double 10px;
     background-color: white;
@@ -26,12 +26,6 @@
     cursor: pointer;
 }
 
-
-/*Countries with at least one partnership */
-
-.map__img #KE, #FR, #BF, #UA, #DZ{
-    fill: deeppink;
-}
 /**
  * @license zoom-svg.css v1.0
  * Updated: Mon Feb 20 2017
@@ -76,12 +70,11 @@
 .button{
     width:30px;
     background-color: white;
-    border: 1px solid dimgrey;
-    color: dimgrey;
+    border: 1px solid deepskyblue;
+    color: deepskyblue;
     height: 22px;
     line-height: 18px;
     text-align: center;
-    border-radius: 70%;
     font-size: 16px;
     cursor: pointer;
     outline: none;
@@ -95,5 +88,8 @@
     background-color: lightgrey;
 }
 
-
-.preview_
+@media screen and (max-width: 600px) {
+    .map {
+        visibility: hidden;
+    }
+}
