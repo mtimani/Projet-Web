@@ -1,0 +1,51 @@
+<!DOCTYPE >
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <script src="../jq_src/jquery-3.3.1.js"></script>
+    <link rel="stylesheet" href="preview.css"/>
+    <title>Preview model</title>
+</head>
+
+<body>
+<div class="preview">
+    <span  class="preview_close">Close</span><br/>
+    <img class="preview_flagcountry" src="../imgs/flag_bf.png">
+
+    <div class="preview_container">
+        <div class="preview_namecountry">Burkina Faso</div>
+        <div class="preview_title">Universities</div>
+
+        <div id="univ_list">
+              <div class="preview_university">
+                  <img class="preview_univ_logo" src="../imgs/logo_upb.jpg"> <a class="preview_univ_name" href="#">Ecole Supérieure d'Informatique / UPB</a>
+              </div>
+
+              <div class="preview_university">
+                  <img class="preview_univ_logo" src="../imgs/logo_uo_bf.jpg"> <a class="preview_univ_name" href="#">Université de Ouagadougou</a>
+              </div>
+
+              <div class="preview_university">
+                  <img class="preview_univ_logo" src="../imgs/logo_2ie_bf.jpg"> <a class="preview_univ_name" href="#">2iE / Ouaga</a>
+              </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+
+<script type="text/javascript">
+    $('.preview_close').click( function (){
+        $('.preview').remove();
+
+    });
+</script>
+
+</body>
+
+
+</html>
