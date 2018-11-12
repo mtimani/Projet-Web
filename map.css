@@ -1,3 +1,7 @@
+.map h1{
+    text-align: center;
+}
+
 .map__img {
     margin: auto;
     background-color: white;
@@ -7,7 +11,8 @@
 
 #border_map {
     margin: auto;
-    border: #2c3E50 double 10px;
+    border: grey outset 10px;
+    border-radius: 10px;
     background-color: white;
     width: 750px;
     height: auto;
