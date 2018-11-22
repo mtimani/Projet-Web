@@ -9,26 +9,29 @@ footer
     margin-top: 40px;
     bottom: 0px;
 }
-nav 
+
+.contact 
 {
-    float: left ; 
+    color: white ; 
 }
-nav ul 
-{
-    margin-top: 73px ;
+
+.contact nav{
+    float: center ;
+    text-align: center;
 }
-nav ul li {
-    display: inline-block; 
-    margin-left: 20px ; 
-    list-style: none ; 
+
+.contact nav ul {
+    margin-top: 20px;
+}
+
+.contact nav ul li {
+    display: inline-block;
+    margin: 20px ;
+    list-style: none ;
 }
 
 .ecole
 {
     color: white ;
-    text-align: center;  
-}
-.contact 
-{
-    color: white ; 
+    text-align: center;
 }

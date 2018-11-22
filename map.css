@@ -31,14 +31,6 @@
     cursor: pointer;
 }
 
-/**
- * @license zoom-svg.css v1.0
- * Updated: Mon Feb 20 2017
- * First Release
- * Copyright (c) Laurent SOUEF Consulting
- * Released under the MIT license
- * https://github.com/LaurentSouefConsulting/jquery.zoom-svg/blob/master/MIT-License.txt
- */
 .zoom-svg-container {
     position: relative;
     display: block;
