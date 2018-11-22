@@ -3,9 +3,9 @@
         <head>
             <meta charset="utf-8" />
             <title>Semestre à l'étranger</title>
-            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+            <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">-->
             <link rel="stylesheet" href="../footer1.css">
-            <link rel="stylesheet" href="semestre.css">
+            <link rel="stylesheet" href="semestre2.css">
             <link rel="stylesheet" href="../menu2.css">
             <script src="../menu2.js"></script>
         </head>
@@ -53,15 +53,43 @@
                             Campus de l'université
                             <a href="https://www.austincollege.edu" target="_blank" class="bouton_rouge">Voir site de l'université</a>
                         </div>
-                        <div class="slider" id="main-slider"><!-- outermost container element -->
-                            <div class="slider-wrapper"><!-- innermost wrapper element -->
-                                <img src="1.jpg" alt="First" class="slide" /><!-- slides -->
-                                <img src="2.jpg" alt="Second" class="slide" />
-                                <img src="3.jpg" alt="Third" class="slide" />
-                                <img src="4.jpg" alt="Fourth" class="slide"/>
-                                <img src="5.jpg" alt="Fifth" class="slide"/>
+                        <span id="sl_play" class="sl_command"></span>
+                        <span id="sl_pause" class="sl_command"></span>
+
+                        <span id="sl_i1" class="sl_command sl_i"></span>
+                        <span id="sl_i2" class="sl_command sl_i"></span>
+                        <span id="sl_i3" class="sl_command sl_i"></span>
+                        <span id="sl_i4" class="sl_command sl_i"></span>
+                        <section id="slideshow">
+                            <a class="play_commands pause" href="#sl_pause" title="Maintain paused">Pause</a>
+                            <a class="play_commands play" href="#sl_play" title="Play the animation">Play</a>
+                            <a class="commands prev commands1" href="#sl_i4" title="Aller à la 4ème slide">&lt;</a>
+                            <a class="commands next commands1" href="#sl_i2" title="Aller à la 2ème slide">&gt;</a>
+                            <a class="commands prev commands2" href="#sl_i1" title="Aller à la 1ère slide">&lt;</a>
+                            <a class="commands next commands2" href="#sl_i3" title="Aller à la 3ème slide">&gt;</a>
+                            <a class="commands prev commands3" href="#sl_i2" title="Aller à la 2ème slide">&lt;</a>
+                            <a class="commands next commands3" href="#sl_i4" title="Aller à la 4ème slide">&gt;</a>
+                            <a class="commands prev commands4" href="#sl_i3" title="Aller à la 3ème slide">&lt;</a>
+                            <a class="commands next commands4" href="#sl_i1" title="Aller à la 1ère slide">&gt;</a>
+                            <div class="container">
+                                <div class="c_slider"></div>
+                                <div class="slider">
+                                    <figure>
+                                        <img src="1.jpg" alt="" width="1430" height="819" />
+                                    </figure>
+                                    <figure>
+                                        <img src="2.jpg" alt="" width="1430" height="819" />
+                                    </figure>
+                                    <figure>
+                                        <img src="3.jpg" alt="" width="1430" height="819" />
+                                    </figure>
+                                    <figure>
+                                        <img src="4.jpg" alt="" width="1430" height="819" />
+                                    </figure>
+                                </div>
                             </div>
-                        </div>
+                            <span id="timeline"></span>
+                        </section>
                         <div id="Block">
                                 <h1>Site consacré aux semestres à l'étranger</h1>
                                 <p>
