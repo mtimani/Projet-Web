@@ -64,3 +64,29 @@
 
 
 })();
+
+
+function showText_Mic() {
+    document.getElementById('Info_Imacs').style.display = "none";
+    document.getElementById('Info_Icbe').style.display = "none";
+    document.getElementById('Info_Ic').style.display = "none";
+    document.getElementById('Info_Mic').style.display = "block";
+}
+function showText_Imacs() {
+    document.getElementById('Info_Icbe').style.display = "none";
+    document.getElementById('Info_Ic').style.display = "none";
+    document.getElementById('Info_Mic').style.display = "none";
+    document.getElementById('Info_Imacs').style.display = "block";
+}
+function showText_Icbe() {
+    document.getElementById('Info_Imacs').style.display = "none";
+    document.getElementById('Info_Ic').style.display = "none";
+    document.getElementById('Info_Mic').style.display = "none";
+    document.getElementById('Info_Icbe').style.display = "block";
+}
+function showText_Ic() {
+    document.getElementById('Info_Imacs').style.display = "none";
+    document.getElementById('Info_Icbe').style.display = "none";
+    document.getElementById('Info_Mic').style.display = "none";
+    document.getElementById('Info_Ic').style.display = "block";
+}

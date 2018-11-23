@@ -7,7 +7,7 @@
             <link rel="stylesheet" href="Css/footer.css">
             <link rel="stylesheet" href="Css/semestre.css">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-            <script src="responsiveslides.js"></script>
+            <script src="semestre.js"></script>
             <script src="buttons.js"></script>
             <script src="menu.js"></script>
             <script src="jQuery/jquery-3.3.1.js"></script>
@@ -43,35 +43,46 @@
                     <a href="#contact">CONTACT</a>
                     <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
                 </div>
-                    <div id="Main">
-                        <div id="banniere_description">
-                            <h2>Université d'Austin</h2>
-                            Campus de l'université
-                            <a href="https://www.austincollege.edu" target="_blank" class="bouton_rouge">Voir site de l'université</a>
+                <div id="Main">
+                    <div id="banniere_description">
+                        <h2>Université d'Austin</h2>
+                        Campus de l'université
+                        <a href="https://www.austincollege.edu" target="_blank" class="bouton_rouge">Voir site de l'université</a>
+                    </div>
+                    <div class="slider" id="main-slider">
+                        <div class="slider-wrapper">
+                            <img src="imgs/1.jpg" alt="First" class="slide" />
+                            <img src="imgs/2.jpg" alt="Second" class="slide" />
+                            <img src="imgs/3.jpg" alt="Third" class="slide" />
+                            <img src="imgs/4.jpg" alt="Fourth" class="slide"/>
+                            <img src="imgs/5.jpg" alt="Fifth" class="slide"/>
                         </div>
-                        <div class="slider" id="main-slider">
-                            <div class="slider-wrapper">
-                                <img src="imgs/1.jpg" alt="First" class="slide" />
-                                <img src="imgs/2.jpg" alt="Second" class="slide" />
-                                <img src="imgs/3.jpg" alt="Third" class="slide" />
-                                <img src="imgs/4.jpg" alt="Fourth" class="slide"/>
-                                <img src="imgs/5.jpg" alt="Fifth" class="slide"/>
-                            </div>
-                        </div>
-                        <div id="Block">
-                                <h1>Site consacré aux semestres à l'étranger</h1>
-                                <p>
-                                  Partez pour un semestre à l'étranger pour étudier et améliorer la langue de votre choix et vous ouvrir aux nombreuses opportunités accessibles à l'international.
-                                  Faire un semestre à l'étranger est le meilleur moyen de se plonger dans une nouvelle culture, et ainsi accelérer l’apprentissage de la langue grâce à une pratique quotienne.
-                                </p>
-                                <p>
-                                    L'université du Texas à Austin est une université américaine située dans la ville d'Austin, capitale du Texas, aux États-Unis....
-                                </p>
-                                <button id="MIC" class="button" style="vertical-align:inherit; background-color: lightslategray;" ><span>MIC </span></button>
-                                <button id="IMACS" class="button" style="vertical-align:inherit; background-color: lightslategray"><span>IMACS </span></button>
-                                <button id="ICBE" class="button" style="vertical-align:inherit; background-color: lightslategray"><span>ICBE </span></button>
-                                <button id="IC" class="button" style="vertical-align:inherit; background-color: lightslategray"><span>IC </span></button>
-                        </div>
+                    </div>
+                    <div id="Block">
+                        <h1>Site consacré aux semestres à l'étranger</h1>
+                        <p>
+                            Partez pour un semestre à l'étranger pour étudier et améliorer la langue de votre choix et vous ouvrir aux nombreuses opportunités accessibles à l'international.
+                            Faire un semestre à l'étranger est le meilleur moyen de se plonger dans une nouvelle culture, et ainsi accelérer l’apprentissage de la langue grâce à une pratique quotienne.
+                        </p>
+                        <p>
+                            L'université du Texas à Austin est une université américaine située dans la ville d'Austin, capitale du Texas, aux États-Unis....
+                        </p>
+                        <button id="MIC" class="button" style="vertical-align:inherit; background-color: lightslategray" onclick="showText_Mic()"><span>MIC </span></button>
+                        <button id="IMACS" class="button" style="vertical-align:inherit; background-color: lightslategray" onclick="showText_Imacs()"><span>IMACS </span></button>
+                        <button id="ICBE" class="button" style="vertical-align:inherit; background-color: lightslategray" onclick="showText_Icbe()"><span>ICBE </span></button>
+                        <button id="IC" class="button" style="vertical-align:inherit; background-color: lightslategray" onclick="showText_Ic()"><span>IC </span></button>
+                    </div>
+                    <div id="Info_Mic" style="display: none;">
+                        <p>lololololololololololololo</p>
+                    </div>
+                    <div id="Info_Imacs" style="display: none;">
+                        <p>tototototototototototototo</p>
+                    </div>
+                    <div id="Info_Icbe" style="display: none;">
+                        <p>momomomomomomomomomomomomo</p>
+                    </div>
+                    <div id="Info_Ic" style="display: none;">
+                        <p>fofofofofofofofofofofofofo</p>
                     </div>
                 </div>
             </div>
