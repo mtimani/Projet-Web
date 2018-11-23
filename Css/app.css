@@ -22,9 +22,26 @@
     text-align: center;
     background-color: rgba(0,0,0,0.6);
     width: 50%;
+    height: 20%;
 }
 
-.map{
+.map__img{
     padding-top: 5%;
     width: 80%;
+}
+
+@media screen and (max-width: 1000px) {
+    #Main_1{
+        padding: 4em;
+        margin-left: 5%;
+        position: center;
+        text-align: center;
+        background-color: rgba(0,0,0,0.6);
+        color: #FFF;
+        width: 50%;
+        height: 10%;
+    }
+    #Main_2{
+        display: none;
+    }
 }
