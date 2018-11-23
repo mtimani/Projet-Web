@@ -1,16 +1,30 @@
-#Main{
-    padding: 0.5em;
+.main{
+    display: inline-block;
+}
+
+#Main_1{
+    padding: 4em;
     margin-top: 40px;
     margin-bottom: 40px;
-    margin-left: 10%;
+    margin-left: 3%;
     position: center;
     text-align: center;
     background-color: rgba(0,0,0,0.6);
-    color: #fff;
-    width: 80%;
+    color: #FFF;
+    width: 30%;
+}
+
+#Main_2{
+    padding: 3em;
+    margin-top: -24.9%;
+    margin-bottom: 5%;
+    margin-left: 43%;
+    position: center;
+    text-align: center;
+    background-color: rgba(0,0,0,0.6);
+    width: 50%;
 }
 
 .map{
-    color: black;
     padding-top: 5%;
 }

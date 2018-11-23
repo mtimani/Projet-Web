@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18c8ce16-0fa2-4602-b8e6-f5278b2994cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/semestre.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Css/semestre.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/semestre.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buttons.js" beforeDir="false" afterPath="$PROJECT_DIR$/buttons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/responsiveslides.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/semestre.html" beforeDir="false" afterPath="$PROJECT_DIR$/semestre.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,40 +16,41 @@
     <session id="440221390">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="19" />
-          <entry key="html" value="17" />
+          <entry key="css" value="20" />
+          <entry key="html" value="18" />
           <entry key="js" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="19" />
-          <entry key="HTML" value="17" />
+          <entry key="CSS" value="20" />
+          <entry key="HTML" value="18" />
           <entry key="JavaScript" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="753" />
-          <entry key="html" value="781" />
+          <entry key="css" value="867" />
+          <entry key="html" value="881" />
           <entry key="js" value="147" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="753" />
-          <entry key="HTML" value="781" />
+          <entry key="CSS" value="867" />
+          <entry key="HTML" value="881" />
           <entry key="JavaScript" value="147" />
         </counts>
       </usages-collector>
@@ -60,11 +58,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="497">
+              <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+              <folding>
+                <element signature="n#svg#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Css/app.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/semestre.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1011">
-              <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+            <state relative-caret-position="675">
+              <caret line="45" column="23" lean-forward="true" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
               <folding>
                 <element signature="n#style#0;n#button#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#button#1;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -80,19 +99,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/semestre.js">
+        <entry file="file://$PROJECT_DIR$/Css/semestre.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="755">
-              <caret line="90" column="61" selection-start-line="90" selection-start-column="61" selection-end-line="90" selection-end-column="61" />
+            <state relative-caret-position="876">
+              <caret line="175" lean-forward="true" selection-start-line="175" selection-end-line="175" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Css/semestre.css">
+        <entry file="file://$PROJECT_DIR$/semestre.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="771">
-              <caret line="175" lean-forward="true" selection-start-line="175" selection-end-line="175" />
+            <state relative-caret-position="861">
+              <caret line="90" column="61" selection-start-line="90" selection-start-column="61" selection-end-line="90" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -121,12 +140,12 @@
         <option value="$PROJECT_DIR$/Test/semestre.css" />
         <option value="$PROJECT_DIR$/semestre.css" />
         <option value="$PROJECT_DIR$/Archive/Menu/menu.html" />
-        <option value="$PROJECT_DIR$/Css/app.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/buttons.js" />
         <option value="$PROJECT_DIR$/Css/semestre.css" />
         <option value="$PROJECT_DIR$/semestre.html" />
         <option value="$PROJECT_DIR$/semestre.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/Css/app.css" />
       </list>
     </option>
   </component>
@@ -142,8 +161,8 @@
       <path value="$PROJECT_DIR$/jQuery/jquery-ui-1.12.1/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="960" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="295" />
     <option name="y" value="25" />
     <option name="width" value="960" />
     <option name="height" value="1030" />
@@ -156,7 +175,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,6 +191,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -220,18 +239,19 @@
       <workItem from="1542870071263" duration="8464000" />
       <workItem from="1542962918014" duration="414000" />
       <workItem from="1542963352336" duration="3149000" />
-      <workItem from="1542979973090" duration="3531000" />
+      <workItem from="1542979973090" duration="3562000" />
+      <workItem from="1542985776121" duration="1927000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15595000" />
+    <option name="totallyTimeSpent" value="17553000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="25" width="960" height="1030" extended-state="4" />
+    <frame x="-1" y="25" width="1922" height="1151" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23574561" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.117395945" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -244,7 +264,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32962137" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32887402" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -287,9 +307,7 @@
     <entry file="file://$PROJECT_DIR$/map.css" />
     <entry file="file://$PROJECT_DIR$/Test/semestre2.html" />
     <entry file="file://$PROJECT_DIR$/Test/semestre2.css" />
-    <entry file="file://$PROJECT_DIR$/responsiveslides.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/responsiveslides.js" />
     <entry file="file://$PROJECT_DIR$/menu2.html" />
     <entry file="file://$PROJECT_DIR$/Archive/Menu/menu.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -322,44 +340,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="778" column="18" lean-forward="true" selection-start-line="778" selection-start-column="18" selection-end-line="778" selection-end-column="18" />
-          <folding>
-            <element signature="n#svg#0;n#div#0;n#div#0;n#div#1;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/buttons.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Css/semestre.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="771">
-          <caret line="175" lean-forward="true" selection-start-line="175" selection-end-line="175" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/semestre.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="755">
-          <caret line="90" column="61" selection-start-line="90" selection-start-column="61" selection-end-line="90" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/semestre.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1011">
-          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+        <state relative-caret-position="675">
+          <caret line="45" column="23" lean-forward="true" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
           <folding>
             <element signature="n#style#0;n#button#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#1;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -370,6 +357,37 @@
             <element signature="n#style#0;n#div#5;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#6;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/semestre.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="861">
+          <caret line="90" column="61" selection-start-line="90" selection-start-column="61" selection-end-line="90" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Css/semestre.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="876">
+          <caret line="175" lean-forward="true" selection-start-line="175" selection-end-line="175" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+          <folding>
+            <element signature="n#svg#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
         </state>
       </provider>
     </entry>
