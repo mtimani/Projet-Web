@@ -27,10 +27,10 @@
 
 .map{
     padding-top: 5%;
-    width: 90%;
+    width: 100%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
     #Main_1{
         padding: 4em;
         margin-left: 5%;
@@ -39,7 +39,7 @@
         background-color: rgba(0,0,0,0.6);
         color: #FFF;
         width: 50%;
-        height: 20%;
+        height: 10%;
     }
     #Main_2{
         display: none;
