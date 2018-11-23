@@ -1,6 +1,6 @@
 .preview {
     margin: auto;
-
+    position: absolute;
     width: 350px;
     height: 400px;
     /* Add shadows to create the "preview" effect */
@@ -8,6 +8,7 @@
     transition: 0.3s;
     border-radius: 5px;
     overflow-y: scroll;
+    visibility: hidden;
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -129,4 +130,11 @@
     cursor: pointer;
     background: #C70115;
     color: #fff;
+}
+
+
+
+/* Workflow */
+#BF{
+    fill: #C70115;
 }
