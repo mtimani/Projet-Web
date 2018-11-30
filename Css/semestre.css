@@ -43,7 +43,7 @@
 
 #Block{
     position: center;
-    margin-top: 10%;
+    margin-top: -10%;
 }
 
 .slider-wrapper > .slide:first-child {
