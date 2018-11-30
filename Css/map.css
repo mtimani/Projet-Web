@@ -5,7 +5,7 @@
 .map__img {
     margin: auto;
     background-color: white;
-    width: 750px;
+    width: 80%;
     height: auto;
 }
 
@@ -14,7 +14,7 @@
     border: grey outset 10px;
     border-radius: 10px;
     background-color: white;
-    width: 750px;
+    width: 80%;
     height: auto;
 }
 
