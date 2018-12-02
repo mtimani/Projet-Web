@@ -37,7 +37,7 @@
        <ul id="list">
         
         <li id="Zoneamerique"> Zone Amérique<br>
-       <a href="austin.html">Université de Austin des Etats Unis </a><br>
+       <a href="austin.php">Université de Austin des Etats Unis </a><br>
        2<br>
        3<br>
        4<br></li>

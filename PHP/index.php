@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<div lang="fr">
-
+<html>
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,6 +17,7 @@
         <script src="../jQuery/jquery-ui-1.12.1/jquery-ui.js"></script>
         <script src="../Zoom/dist/jquery.zoom-svg.js"></script>
     </head>
+    <body>
 
         <?php include('menu.php');?>
 
