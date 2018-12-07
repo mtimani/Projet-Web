@@ -1,0 +1,8 @@
+viewBox="0 0 1160 680"
+
+zoom-svg.css
+width: 50%;
+height: auto;
+
+map.css
+

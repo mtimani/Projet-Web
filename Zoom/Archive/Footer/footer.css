@@ -7,11 +7,7 @@ footer
     padding : 20px 0px ;
     position: relative;
     margin-top: 40px;
-    margin-bottom: -5%;
-}
-
-footer a{
-    color: white;
+    bottom: 0px;
 }
 
 .contact 

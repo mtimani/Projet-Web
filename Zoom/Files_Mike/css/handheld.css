@@ -1,0 +1,302 @@
+* Main elements */
+
+body {
+    position: absolute;
+    padding-bottom: 25%;
+}
+
+#main_wrapper {
+    position: relative;
+    margin: 5% 5% 25% 5%;
+    /* overflow: eventuellement autoriser les overflow et permettre de zoomer sur les images */
+}
+
+article img {
+    width: 80vw;
+    min-width: 80%;
+}
+
+section {
+    position: relative;
+    margin-top: 35%;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+#term_img {
+/*    height: 3vw;
+    min-width: 3vw;
+    width: 3vw; */
+    height: 1.2em;
+    width: 1.2em;
+    min-width: 1.2em;
+}
+
+figure {
+    margin-top: 2vw;
+    margin-bottom: 5vw;
+    padding: 0;
+}
+
+figcaption {
+    font-size: 2.3vw;
+}
+
+/* Header */
+
+header {
+    position: relative;
+    overflow: hidden;
+    opacity: 1;
+    height: 10vw;
+    background-color: #4F4D50;
+}
+
+#main_title {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin: 0;
+}
+
+#header_menu {
+    position: absolute;
+    top: 0;
+    left: 75vw;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+#header_menu ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 1.2vw;
+}
+
+#logo img {
+    position: absolute;
+    left: 0;
+    top: 1vw;
+    transform: translate(-50%);
+    height: 8vw;
+    width: 35vw;
+}
+
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    flex-direction: column;
+}
+
+nav li {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+header nav a:hover {
+    border-bottom: none;
+}
+
+/* Bloc func */
+
+.bloc_func {
+    border: none;
+    padding: 0 0 0 1vw;
+    margin: 0;
+    border-left: 1vw solid #696969;
+    /*    font-size: 2.3vw;
+margin-bottom: 8vw;
+    margin-top: 2vw; */
+    font-size: 1em;
+    margin-bottom: 3em;
+    margin-top: 1em;
+}
+
+br {
+  content: "";
+  margin: 0.4vw;
+  display: block;
+  font-size: 800%;
+}
+
+.bloc_func table {
+    border-left: none;
+    margin: 0 0 0 1vw;
+}
+
+.bloc_func th {
+    width: 8em;
+    font-size: .8em;
+    background: none;
+    text-align: left;
+    margin: none;
+}
+
+.bloc_func td {
+    padding-left: 1vw
+}
+
+.com_func {
+    margin: 0 0 0 1vw;
+    padding: none;
+}
+
+.retrait {
+    margin: 0 0 0 5vw;
+}
+
+/* Sidenav */
+
+#sidenav {
+    display: flex;
+    position: absolute;
+    top: 0;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.7vw;
+    justify-content: flex-start;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-radius: 1vw;
+    /* border-bottom: 3px solid #760001; */
+}
+
+#sidenav a:hover {
+    border-bottom: .4vw solid #760001;
+}
+
+#sidenav ul {
+    position: relative;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    list-style-type: none;
+}
+
+#sidenav li {
+    width: 100%;
+}
+
+/* Footer */
+
+footer {
+    position: absolute;
+    bottom: 0;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2vw;
+}
+
+footer p {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* Python */
+
+.py_code_bloc {
+    display: flex;
+    flex-align: justify-content;
+/*    border: 0.2vw solid black;
+    border-left-width: 1vw;
+    height: 3vw; */
+    align-items: center;
+    border: 0.2% solid black;
+    border-left-width: 1%;
+    height: 1.3em;
+}
+
+.py_line {
+    position: relative;
+    top: 0;
+    /*    font-size: 2.4vw; */
+    font-size: 1.1em;
+}
+
+.py_line:before {
+    margin-left: 1vw;
+    margin-right: 4vw;
+    /* agrandir la taille de ">>>" */
+}
+
+.com_py {
+    font-size: 2.2vw;
+}
+
+/* Font sizes */
+
+.com_list {
+    /* font-size: 2vw; */
+    font-size: .8em;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.com {
+    font-size: 1em;
+}
+
+.cmd_code {
+    border: 0.2vw solid black;
+    border-left-width: 1vw;
+}
+
+.bib_code {
+    font-size: .9em;
+   /* font-size: 2.1vw; */
+    border-right: 0.4vw solid #1f2e2e;
+    border-left: 0.4vw solid #1f2e2e;
+}
+
+.py_line:before {
+    font-size: .5em;
+/*    font-size: 1.3vw; */
+}
+
+article p {
+    /* font-size: 2.4vw; */
+    font-size: 1em;
+}
+
+h1 {
+/*    font-size: 3vw; */
+    font-size: 1.3em;
+}
+
+h2 {
+    margin-left: 5vh;
+    /*    font-size: 2.8vw; */
+    font-size: 1.2em;
+}
+
+h3 {
+    /*    font-size: 2.6vw; */
+    font-size: 1.1em;
+    text-align: center;
+}
+
+h4 {
+    /*    font-size: 2.3vw; */
+    font-size: 1em;
+}
+
+article ul {
+    margin-top: 0;
+    padding-left: 5vw;
+    /*    font-size: 2.3vw; */
+    font-size: 1em;
+}
+
+span {
+    /*    font-size: 2.3vw; */
+    font-size: 1em;
+}

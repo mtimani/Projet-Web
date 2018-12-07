@@ -3,46 +3,21 @@
         <head>
             <meta charset="utf-8" />
             <title>Semestre à l'étranger</title>
-            <link rel="stylesheet" href="Css/menu.css">
-            <link rel="stylesheet" href="Css/footer.css">
-            <link rel="stylesheet" href="Css/semestre.css">
+            <link rel="stylesheet" href="../Css/menu.css">
+            <link rel="stylesheet" href="../Css/footer.css">
+            <link rel="stylesheet" href="../Css/semestre.css">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-            <script src="Js/semestre.js"></script>
-            <script src="Js/buttons.js"></script>
-            <script src="Js/menu.js"></script>
-            <script src="jQuery/jquery-3.3.1.js"></script>
-            <script src="jQuery/jquery-3.3.1.js"></script>
-            <script src="jQuery/jquery-mousewheel-3.1.13/jquery.mousewheel.js"></script>
-            <script src="jQuery/jquery-ui-1.12.1/jquery-ui.js"></script>
-            <script src="Zoom/dist/jquery.zoom-svg.js"></script>
+            <script src="../Js/semestre.js"></script>
+            <script src="../Js/buttons.js"></script>
+            <script src="../Js/menu.js"></script>
+            <script src="../jQuery/jquery-3.3.1.js"></script>
+            <script src="../jQuery/jquery-3.3.1.js"></script>
+            <script src="../jQuery/jquery-mousewheel-3.1.13/jquery.mousewheel.js"></script>
+            <script src="../jQuery/jquery-ui-1.12.1/jquery-ui.js"></script>
+            <script src="../Zoom/dist/jquery.zoom-svg.js"></script>
         </head>
         <body>
-            <div id="bloc_page page-content-wrapper" class="container-fluid">
-                <div class="topnav sticky" id="myTopnav">
-            <a href="./index.html" class="active">ACCUEIL</a>
-            <div class="dropdown">
-                <button class="dropbtn">INFORMATIONS
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                    <a href="#">POURQUOI PARTIR À L'ÉTRANGER ?</a>
-                    <a href="#">DEADLINES</a>
-                </div>
-            </div>
-            <div class="dropdown">
-                <button class="dropbtn">UNIVERSITÉS
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                    <a href="list.html#Zoneamerique">ZONE AMERIQUE</a>
-                    <a href="list.html#Zoneeurope">ZONE EUROPE</a>
-                    <a href="list.html#Zoneasie">ZONE ASIE</a>
-                </div>
-            </div>
-            <a href="#news">PROCÉDURES ADMINISTRATIVES</a>
-            <a href="#contact">CONTACT</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-        </div>
+                <?php include('menu.php');?>
                 <div id="Main">
                     <div id="banniere_description">
                         <h2>Université d'Austin</h2>
@@ -51,11 +26,11 @@
                     </div>
                     <div class="slider" id="main-slider">
                         <div class="slider-wrapper">
-                            <img src="imgs/1.jpg" alt="First" class="slide" />
-                            <img src="imgs/2.jpg" alt="Second" class="slide" />
-                            <img src="imgs/3.jpg" alt="Third" class="slide" />
-                            <img src="imgs/4.jpg" alt="Fourth" class="slide"/>
-                            <img src="imgs/5.jpg" alt="Fifth" class="slide"/>
+                            <img src="../imgs/1.jpg" alt="First" class="slide" />
+                            <img src="../imgs/2.jpg" alt="Second" class="slide" />
+                            <img src="../imgs/3.jpg" alt="Third" class="slide" />
+                            <img src="../imgs/4.jpg" alt="Fourth" class="slide"/>
+                            <img src="../imgs/5.jpg" alt="Fifth" class="slide"/>
                         </div>
                     </div>
                     <div id="Block">

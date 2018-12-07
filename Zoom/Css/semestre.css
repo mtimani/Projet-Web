@@ -10,13 +10,6 @@
     width: 80%;
 }
 
-#Main a{
-    color: white;
-}
-
-body
-{background-image:url("bg4.jpg");
-}
 .slider {
     width: 75%;
     margin: 2em auto;
@@ -25,7 +18,7 @@ body
 
 .slider-wrapper {
     width: 100%;
-    height: 500px;
+    height: 600px;
     position: relative;
 }
 
@@ -34,7 +27,7 @@ body
     position: absolute;
     margin-left: -50%;
     width: 100%;
-    height: 80%;
+    height: 100%;
     opacity: 0;
     transition: opacity 2s linear;
 }
@@ -44,14 +37,16 @@ body
     background-color: rgba(0,0,0,0.6);
     color: #fff;
     padding: 0.5em;
+    margin-top: 40px;
     text-align: center;
     position: center;
 }
 
 #Block{
+    margin-top: 20px;
     position: center;
-    margin-top: -10%;
-}
+} 
+
 
 .slider-wrapper > .slide:first-child {
     opacity: 1;
@@ -80,7 +75,15 @@ body
     font-weight: normal;
     font-style: normal;
 }
-
+body
+{
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #181818;
+}
 
 #bloc_page
 {
