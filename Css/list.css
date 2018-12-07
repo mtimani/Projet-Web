@@ -9,22 +9,29 @@
 
 
 #box
-{   
-    padding: 4em;
-    margin-left: 3%;
+{
+    padding: 0.5em;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 10%;
     position: center;
-    text-align: left;
     background-color: rgba(0,0,0,0.6);
-    color: #FFF;
+    color: #fff;
     width: 80%;
     
 }
-#list
-{
-    
-    
-    list-style: none;
+.list{
+    display: flex;
 }
+
+#Zoneasie{
+    margin-left: 30%;
+}
+
+#Zoneeurope{
+    margin-left: 40%;
+}
+
 #spaceblock
 {
     
@@ -35,11 +42,12 @@
 }
 
 #Zonetext
-{display: inline-block;}
+{display: inline-block;
+text-align: center}
 
 #worldgif
 {
     
-    margin-left: 25%;
+    margin-left: 33%;
     margin-top: 4%;
 }
