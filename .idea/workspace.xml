@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18c8ce16-0fa2-4602-b8e6-f5278b2994cb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Css/list.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/list.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HTML/austin.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/austin.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HTML/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HTML/informations.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/informations.html" afterDir="false" />
@@ -21,20 +20,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HTML/list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+            <state relative-caret-position="420">
+              <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+        <entry file="file://$PROJECT_DIR$/HTML/procedure.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
-              <folding>
-                <element signature="n#svg#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="336">
+              <caret line="26" column="57" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -82,11 +78,11 @@
         <option value="$PROJECT_DIR$/Css/semestre.css" />
         <option value="$PROJECT_DIR$/Css/list.css" />
         <option value="$PROJECT_DIR$/HTML/list.html" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/HTML/austin.html" />
         <option value="$PROJECT_DIR$/HTML/contact.html" />
         <option value="$PROJECT_DIR$/HTML/informations.html" />
         <option value="$PROJECT_DIR$/HTML/procedure.html" />
-        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -173,12 +169,12 @@
       <workItem from="1543768257268" duration="297000" />
       <workItem from="1544180314110" duration="45000" />
       <workItem from="1544180398895" duration="10000" />
-      <workItem from="1544209649798" duration="7101000" />
+      <workItem from="1544209649798" duration="7275000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28858000" />
+    <option name="totallyTimeSpent" value="29032000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
@@ -323,48 +319,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/austin.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+        <state relative-caret-position="255">
+          <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+          <folding>
+            <element signature="n#svg#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/contact.html">
+    <entry file="file://$PROJECT_DIR$/HTML/austin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
+        <state relative-caret-position="329">
+          <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HTML/informations.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+        <state relative-caret-position="249">
+          <caret line="28" column="61" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/procedure.html">
+    <entry file="file://$PROJECT_DIR$/HTML/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+        <state relative-caret-position="213">
+          <caret line="29" column="61" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="29" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HTML/list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+        <state relative-caret-position="420">
+          <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/HTML/procedure.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
-          <folding>
-            <element signature="n#svg#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="336">
+          <caret line="26" column="57" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
         </state>
       </provider>
     </entry>
