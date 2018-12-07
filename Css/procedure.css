@@ -13,13 +13,40 @@
 
 }
 
+ .Menu_lateral{
+     display: flex;
+ }
+
+ .Menu_lateral a{
+     color: white;
+ }
+
+ #et2{
+     margin-left: 5%;
+ }
+
+ #et3{
+     margin-left: 5%;
+ }
+
+ #et4{
+     margin-left: 5%;
+ }
+
+ #et5{
+     margin-left: 5%;
+ }
+
+ #et6{
+     margin-left: 5%;
+ }
+
 .container2 
 {
   width:  80%;
   margin: 0 auto ;
   text-align: justify;
   border : 2px solid #fff;
-  background: url("photo4.jpeg") no-repeat fixed  ;  
 }
 
 h1
@@ -31,33 +58,6 @@ h2
 {
  border: groove ;
  font-style: oblique;
-}
-
-
-.etapes 
-{
- padding : 0 30px 0 100px ; 
-}
-
-
-#etape1, #etape2 , #etape3 , #etape4 
- padding-left: 25px ;
-	line-height: 25px ;
-	font-size: 1.5em ; 
-}
-
-#etape5 , #etape6, #etape7 
-{
- padding-left: 25px ;
-	line-height: 25px ;
-	font-size: 1.2em ;
-}
-
-.etapes
-{
- text-align: justify ;
-	text-indent: 2em ;
-	line-height: 1.7em ; 
 }
 
 
