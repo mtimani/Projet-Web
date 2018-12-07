@@ -1,0 +1,48 @@
+<!DOCTYPE >
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <script src="../jQuery/jquery-3.3.1.js"></script>
+    <link rel="stylesheet" href="preview.css"/>
+    <title>Preview model</title>
+</head>
+
+<body>
+
+<div id="preview" class="preview">
+    <span  class="preview_close">Close</span><br/>
+    <img class="preview_flagcountry" src="../imgs/flag_usa.png">
+
+    <div class="preview_container">
+        <div class="preview_namecountry">United States of America</div>
+        <div class="preview_title">Universities</div>
+
+        <div class="univ_list">
+            <div class="preview_university">
+                <img class="preview_univ_logo" src="../imgs/logo_mississippi.jpg"> <a class="preview_univ_name" href="#">Universitu of Mississipi</a>
+            </div>
+
+            <div class="preview_university">
+                <img class="preview_univ_logo" src="../imgs/logo_univesity_of_texas_austin.png"> <a class="preview_univ_name" href="#">University of Texas</a>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+
+<script type="text/javascript">
+    $('.preview_close').click( function (){
+        $('.preview').remove();
+
+    });
+</script>
+
+</body>
+
+
+</html>
