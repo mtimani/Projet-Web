@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html>
-
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Semestre à l'étranger</title>
         <link rel="stylesheet" href="Css/menu.css"/>
+        <link rel="stylesheet" href="Css/previews.css"/>
         <link rel="stylesheet" href="Css/app.css">
         <link rel="stylesheet" href="Css/map.css"/>
         <link rel="stylesheet" href="Css/footer.css"/>
-        <link rel="stylesheet" href="Css/list.css"/>
+        <link rel="stylesheet" href="Css/contact.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="Js/menu.js"></script>
+        <script src="Js/previews.js"></script>
         <script src="jQuery/jquery-3.3.1.js"></script>
         <script src="jQuery/jquery-mousewheel-3.1.13/jquery.mousewheel.js"></script>
         <script src="jQuery/jquery-ui-1.12.1/jquery-ui.js"></script>
         <script src="Zoom/dist/jquery.zoom-svg.js"></script>
     </head>
     <body>
-         <div class="topnav sticky" id="myTopnav">
+        <div class="topnav sticky" id="myTopnav">
             <a href="./index.html" class="active">ACCUEIL</a>
             <div class="dropdown">
                 <button class="dropbtn">INFORMATIONS
@@ -40,74 +41,24 @@
                 </div>
             </div>
             <a href="./procedure.html">PROCÉDURES ADMINISTRATIVES</a>
-             <a href="./contact.html">CONTACT</a>
+            <a href="./contact.html">CONTACT</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
         </div>
-    
-    
-</div>
-
-
-<div id="box" class="container2">
-       
-       
-       
-      
-       
-      
-       <div id=Zonetext><br>L'INSA de Toulouse propose des échanges avec des pays dans tout le monde. Vous trouverez en dessous les différents universités que l'on vous propose. </div>
-       <div>
-           
-         <img id="worldgif" src="imgs/giphy.gif">   
-
-    <br />
-           <ul>
-        <div class="list">
-        <li id="Zoneamerique"> Zone Amérique<br>
-       <a href="austin.html" target="_blank">Université de Austin des Etats Unis </a><br>
-       2<br>
-       3<br>
-       4<br></li>
-           <div id="spaceblock"></div>
-        <li id="Zoneasie"> Zone Asie<br>
-       1<br>
-       2<br>
-       3<br>
-       4<br>
-       </li>
-           <div id="spaceblock"></div>
-        <li id="Zoneeurope">Zone Europe<br>
-
-       1<br>
-       2<br>
-       3<br>
-       4<br>
-       </li>
-
-
-           </ul>
-       </div>
-       </div>
-       
-    </div>
-       
-        <footer>
-            <div class="contact">
-                <nav>
-                    <ul>
-                        <li><strong>Contacts</strong></li>
-                        <li>A propos </li>
-                        <li>Aide/Help</li>
-                        <li>Forum</li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="ecole">
-                <p>
-                    <br>Mario Timani, Abdel Tarnagda, Yacine Benchehida & Michael Ejigu
-                    <br>3MIC 2018-2019
-                </p>
-            </div>
-        </footer>
+        <div id="Main">
+            <section class="contact2">
+                <div class="section-block">
+                    <div class="contact-form">
+                        <h1>Contactez-nous</h1>
+                        <form>
+                            <input type="text" placeholder="Pr&eacute;nom"/><br>
+                            <input type="text" placeholder="NOM"/><br>
+                            <input type="text" placeholder="E-mail"/><br>
+                            <input type="textarea" style="height: 120px" placeholder="Message"/><br>
+                            <button>Envoyer</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
     </body>
 </html>

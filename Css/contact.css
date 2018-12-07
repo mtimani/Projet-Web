@@ -1,12 +1,10 @@
-.contact {
+.contact2 {
     display: block;
-    border-width: initial;
     margin-top: 40px;
-    padding: 0.5em;
-    background-color: rgba(0,0,0,0.6);
+    padding-right: 1.2em;
 }
 
-.contact h1 {
+.contact2 h1 {
     font-family: 'Trebuchet MS', Arial, sans-serif;
     color: white;
     text-align: center;
@@ -26,4 +24,15 @@
     padding: 6px;
     margin: 4px;
     width: 100%;
+}
+
+#Main{
+    padding: 0.5em;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 10%;
+    position: center;
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    width: 80%;
 }
