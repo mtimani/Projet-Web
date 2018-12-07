@@ -1,4 +1,17 @@
+@font-face{
+    font-family: "Abbeyline" ;
+    src : url('Abbeyline.ttf') ;
+}
 
+
+body {
+
+    margin: 10px 0 ;
+    padding:0;
+    text-align: center ;
+    font: 1em "Trebuchet MS", helvetica, sans-serif ;
+
+}
 
 .container2{
     display: flex;
@@ -7,6 +20,10 @@
     margin-top: 40px;
 }
 
+.container2 h1{
+    color: white;
+    text-align: center;
+}
 
 #box
 {
@@ -26,8 +43,12 @@
 }
 
 .list{
-    margin-top: 5%;
+    margin-top: 2%;
     display: flex;
+}
+
+#Zoneamerique{
+    margin-left: -2%;
 }
 
 #Zoneasie{
@@ -55,6 +76,5 @@ text-align: center}
 {
     width: 50%;
     height: 30%;
-    margin-left: 25%;
     margin-top: 4%;
 }

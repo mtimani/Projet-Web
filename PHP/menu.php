@@ -17,30 +17,31 @@
         <script src="../Zoom/dist/jquery.zoom-svg.js"></script>
     </head>
     <body>
-        <div class="topnav sticky" id="myTopnav">
-            <a href="./index.php" class="active">ACCUEIL</a>
-            <div class="dropdown">
-                <button class="dropbtn">INFORMATIONS
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                    <a href="#">POURQUOI PARTIR À L'ÉTRANGER ?</a>
-                    <a href="#">DEADLINES</a>
-                </div>
+    <div class="topnav sticky" id="myTopnav">
+        <a href="../index.html" class="active">ACCUEIL</a>
+        <div class="dropdown">
+            <button class="dropbtn">INFORMATIONS
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="../HTML/informations.html">POURQUOI PARTIR À L'ÉTRANGER ?</a>
+                <a href="../HTML/informations.html">DEADLINES</a>
             </div>
-            <div class="dropdown">
-                <button class="dropbtn">UNIVERSITÉS
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                    <a href="list.php#Zoneamerique">ZONE AMERIQUE</a>
-                    <a href="list.php#Zoneeurope">ZONE EUROPE</a>
-                    <a href="list.php#Zoneasie">ZONE ASIE</a>
-                </div>
-            </div>
-            <a href="#news">PROCÉDURES ADMINISTRATIVES</a>
-            <a href="#contact">CONTACT</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
         </div>
+        <div class="dropdown">
+            <button class="dropbtn">PAGES D'UNIVERSITÉS
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="../HTML/austin.html">AUSTIN</a>
+                <a href="#">DEUXIEME UNIV</a>
+                <a href="#">TROISIEME UNIV</a>
+            </div>
+        </div>
+        <a href="../HTML/list.html">LISTE UNIVERSITÉS</a>
+        <a href="../HTML/procedure.html">PROCÉDURES ADMINISTRATIVES</a>
+        <a href="../HTML/contact.html">CONTACT</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
     </body>
 </html>
