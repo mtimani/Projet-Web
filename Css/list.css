@@ -78,3 +78,23 @@ text-align: center}
     height: 30%;
     margin-top: 4%;
 }
+
+@media screen and (max-width: 600px) {
+    .list {
+        margin-top: 2%;
+        margin-left: -10%;
+        display: block;
+    }
+
+    #Zoneamerique{
+        margin-top: 5%;
+    }
+
+    #Zoneasie{
+        margin-top: 10%;
+    }
+
+    #Zoneeurope{
+        margin-top: 10%;
+    }
+}
