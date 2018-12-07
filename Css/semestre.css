@@ -9,6 +9,11 @@
     color: #fff;
     width: 80%;
 }
+
+#Main a{
+    color: white;
+}
+
 body
 {background-image:url("bg4.jpg");
 }

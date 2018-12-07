@@ -20,6 +20,11 @@
     width: 80%;
     
 }
+
+#box a{
+    color: white;
+}
+
 .list{
     display: flex;
 }
@@ -48,6 +53,6 @@ text-align: center}
 #worldgif
 {
     
-    margin-left: 33%;
+    margin-left: 25%;
     margin-top: 4%;
 }

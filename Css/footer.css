@@ -10,6 +10,10 @@ footer
     margin-bottom: -5%;
 }
 
+footer a{
+    color: white;
+}
+
 .contact 
 {
     color: white ; 
