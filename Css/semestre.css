@@ -9,7 +9,9 @@
     color: #fff;
     width: 80%;
 }
-
+body
+{background-image:url("bg4.jpg");
+}
 .slider {
     width: 75%;
     margin: 2em auto;
