@@ -1,0 +1,132 @@
+.preview {
+    margin: auto;
+
+    width: 350px;
+    height: 400px;
+    /* Add shadows to create the "preview" effect */
+    box-shadow: 0 4px 8px 0 #2b2b2b;
+    transition: 0.3s;
+    border-radius: 5px;
+    overflow-y: scroll;
+}
+
+/* On mouse-over, add a deeper shadow */
+.preview:hover {
+    box-shadow: 0 10px 16px 0 #2b2b2b;
+}
+
+/* Add some padding inside the preview container */
+.preview_container {
+
+
+}
+
+
+/* Add rounded corners to the top left and the top right corner of the image */
+.preview_flagcountry{
+    width: 80%; /* par rapport au preview lui même*/
+    height: 35%;
+    border-radius: 5px 5px 0 0;
+    margin: 3% 10% 3% 10% ;
+
+}
+
+
+/* Container of elements after the flag(img)
+  Allows to separate the flag from the rest*/
+
+.preview_container{
+    margin: 3px 0 5px 0;
+    padding: 2px 16px;
+    border-top: 1px solid #2b2b2b;
+}
+
+/* Name of the flag(img) */
+
+.preview_namecountry{
+    margin: 5%;
+    font-weight: bold;
+}
+
+
+
+/* Title of elements displayed on the container */
+.preview_title{
+    text-decoration: underline;
+    font-size: 75%;
+
+}
+
+/* Model of an university */
+
+.preview_university{
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 5%;
+    display: inline-flex;
+}
+
+.preview_university:hover{
+    padding-bottom: 2px;
+    border-bottom: 3px solid #101010;
+}
+
+
+
+
+/* Logo of an university */
+.preview_univ_logo{
+    width: 150px; /* par rapport au preview lui même*/
+    height: 100px;
+    border-radius: 5px 5px 0 0;
+     border: 2px solid black;  /*Imgs disparity bugs*/
+}
+
+
+
+
+/* Name of an university */
+
+.preview_univ_name
+{
+    margin: 5% 5% 5% 5%;
+    text-decoration: none;
+    color: #2b2b2b;
+}
+
+
+.preview_univ_name:hover,
+.preview_univ_name:link,
+.preview_univ_name:visited
+{
+    text-decoration: none;
+    color: #2b2b2b;
+}
+
+
+
+
+
+/*Button close*/
+
+.preview_close {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    top: 2px;
+    left: 85%;
+    opacity: 0.3;
+    border-radius: 10%;
+
+    transition-property: opacity;
+    transition-duration: 700ms;
+    -webkit-transition-property: opacity;
+    -webkit-transition-duration: 700ms;
+}
+.preview_close:hover {
+    opacity: 1;
+    cursor: pointer;
+    background: #C70115;
+    color: #fff;
+}
