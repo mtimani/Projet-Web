@@ -73,15 +73,7 @@
     font-weight: normal;
     font-style: normal;
 }
-body
-{
-    background-position: center center;
-    background-repeat:  no-repeat;
-    background-attachment: fixed;
-    background-size:  cover;
-    font-family: 'Trebuchet MS', Arial, sans-serif;
-    color: #181818;
-}
+
 
 #bloc_page
 {
