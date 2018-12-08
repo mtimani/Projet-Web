@@ -110,16 +110,36 @@ c_US.mouseout(function (){
 
 //==================================================================================
 
+/*$(document).mouseover(function(event) {
+    console.log("X : ", event.pageX);
+});*/
+
 
 var c_CN = $("#c_CN");
 //var prev = $('#preview_CN');
 
 c_CN.mouseenter(function (e){
     clearTimeout(c_CN);
+
     c_CN=setTimeout(function(){
+        var docWidth = $(document).width();
+        var posX = e.pageX;
         var posY = e.pageY-300; //300 is 3/4 of the preview's height
+
+        if(posX+350 > docWidth-50){
+            posX = posX-100;
+        }
+
+
+        console.log("H doc: ", $(document).height());
+        console.log("W doc: ", $(document).width());
+        console.log("H win: ", $(window).height());
+        console.log("W win: ", $(window).width());
+
+
+
         console.log("Hello !");
-        $('#preview_CN').css({ "visibility": "visible", "left": e.pageX, "top": posY});
+        $('#preview_CN').css({ "visibility": "visible", "left": posX, "top": posY});
     }, 500);
 
 
@@ -127,6 +147,7 @@ c_CN.mouseenter(function (e){
 
 c_CN.click(function (e){
     var posY = e.pageY-300;
+
     console.log("Hello !");
     $('#preview_CN').css({ "visibility": "visible", "left": e.pageX, "top": posY});
 });
