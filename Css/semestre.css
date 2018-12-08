@@ -30,9 +30,6 @@ body {
     color: white;
 }
 
-body
-{background-image:url("bg4.jpg");
-}
 .slider {
     width: 75%;
     margin: 2em auto;
@@ -55,60 +52,20 @@ body
     transition: opacity 2s linear;
 }
 
-
-#Main1{
-    background-color: rgba(0,0,0,0.6);
-    color: #fff;
-    padding: 0.5em;
-    text-align: center;
-    position: center;
-}
-
 #Block{
     position: center;
     margin-top: -10%;
 }
 
+
 .slider-wrapper > .slide:first-child {
     opacity: 1;
 }
-
-@font-face
-{
-    font-family: 'BallparkWeiner';
-    src: url('polices/ballpark.eot');
-    src: url('polices/ballpark.eot?#iefix') format('embedded-opentype'),
-         url('polices/ballpark.woff') format('woff'),
-         url('polices/ballpark.ttf') format('truetype'),
-         url('polices/ballpark.svg#BallparkWeiner') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face
-{
-    font-family: 'Dayrom';
-    src: url('polices/dayrom.eot');
-    src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
-         url('polices/dayrom.woff') format('woff'),
-         url('polices/dayrom.ttf') format('truetype'),
-         url('polices/dayrom.svg#Dayrom') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
 
 #bloc_page
 {
     width: 900px;
     margin: auto;
-}
-
-section h1, footer h1, nav a
-{
-    font-family: Dayrom, serif;
-    font-weight: normal;
-    text-transform: uppercase;
 }
 
 /*Header*/
