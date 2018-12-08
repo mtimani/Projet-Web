@@ -4,25 +4,29 @@
 }
 
 
+
 body {
 
     margin: 10px 0 ;
     padding:0;
     text-align: center ;
     font: 1em "Trebuchet MS", helvetica, sans-serif ;
+    background-color: #bfbfbf;
 
 }
 
 
-.container{
-    display: flex;
-    margin-bottom: 5%;
-    margin-top: 40px;
+.main_content{
+    width: 80%;
+    flex-direction: column;
+    margin:5% 9% 5% 9%;
+
+
 }
 
-#Main_1{
+#presentation{
     padding: 4em;
-    margin-left: 3%;
+    margin:auto;
     position: center;
     text-align: center;
     background-color: rgba(0,0,0,0.6);
@@ -31,23 +35,23 @@ body {
     height: 20%;
 }
 
-#Main_2{
+#border_frame{
     padding: 3em;
-    margin-left: 3%;
+    margin: auto;
     position: center;
-    text-align: center;
     background-color: rgba(0,0,0,0.6);
     width: 50%;
     height: 20%;
 }
 
 .map__img{
+    margin: auto;
     padding-top: 5%;
-    width: 80%;
+    width: 50%;
 }
 
 @media screen and (max-width: 1000px) {
-    #Main_1{
+    #presentation{
         padding: 4em;
         margin-left: 5%;
         position: center;
@@ -57,7 +61,7 @@ body {
         width: 50%;
         height: 10%;
     }
-    #Main_2{
+    #border_map{
         display: none;
     }
 }
