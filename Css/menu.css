@@ -71,7 +71,7 @@ body
 }
 
 .dropdown-content a:hover {
-    background-color: lawngreen;
+    background-color: #ddd;
   
     color: black;
     font-weight: bold;
