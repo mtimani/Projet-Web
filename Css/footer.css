@@ -5,15 +5,15 @@ footer
     width: 100% ;
     background-image: url("../imgs/footer_bg.png");
     padding : 20px 0 ;
-    position: relative;
+    position: absolute;
     margin-top: 40px;
-    margin-bottom: -5%;
+    /*margin-bottom: -5%;*/
 }
 
 #logo_footer{
     position: absolute;
     left: 10px;
-    width: 30%;
+    width: 20%;
     height: auto;
     padding-bottom: 10px;
     border-bottom: 4px double white;
