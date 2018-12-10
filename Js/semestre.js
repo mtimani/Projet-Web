@@ -1,4 +1,4 @@
-(function Image_Carousel() {
+function Image_Carousel() {
 
     function Slideshow( element ) {
         this.el = document.querySelector( element );
@@ -62,7 +62,7 @@
     });
 
 
-})Image_Carousel();
+}Image_Carousel();
 
 
 function showText_Mic() {
