@@ -1,8 +1,8 @@
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
+function responsiveFunction() {
+    var x = document.getElementById("menu");
+    if (x.className === "barrenav") {
+        x.className += " responsif";
     } else {
-        x.className = "topnav";
+        x.className = "barrenav";
     }
 }
