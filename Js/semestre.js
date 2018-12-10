@@ -1,4 +1,4 @@
-(function() {
+(function Image_Carousel() {
 
     function Slideshow( element ) {
         this.el = document.querySelector( element );
@@ -32,7 +32,7 @@
             var self = this;
             self.timer = setInterval(function() {
                 self.index++;
-                if( self.index == self.slides.length ) {
+                if( self.index === self.slides.length ) {
                     self.index = 0;
                 }
                 self._slideTo( self.index );
@@ -62,7 +62,7 @@
     });
 
 
-})();
+})Image_Carousel();
 
 
 function showText_Mic() {
