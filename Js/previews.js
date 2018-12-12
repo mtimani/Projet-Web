@@ -10,7 +10,7 @@ var c_BF = $('#c_BF');
 c_BF.mouseenter(function (e){
     clearTimeout(c_BF);
     c_BF=setTimeout(function(){
-        var posY = e.pageY-300; //300 is 3/4 of the preview's height
+        var posY = e.pageY; //300 is 3/4 of the preview's height
         console.log("Hello !");
         $('#preview_BF').css({ "visibility": "visible", "left": e.pageX, "top": posY});
     }, 500);

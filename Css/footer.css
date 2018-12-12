@@ -6,6 +6,7 @@ footer
     background-image: url("../imgs/footer_bg.png");
     padding : 20px 0 ;
     position: absolute;
+
     margin-top: 40px;
     /*margin-bottom: -5%;*/
 }

@@ -2,22 +2,23 @@ body
 {background-image:url("bg4.jpg");
 }
 .topnav {
-    background-color: #333;
+    background-color: black;
     overflow: hidden;
 }
 
 .topnav a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: white;
     text-align: center;
     padding: 15px 16px;
     text-decoration: none;
     font-size: 17px;
+    
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: lightseagreen;
     color: white;
 }
 
@@ -39,15 +40,15 @@ body
     background-color: inherit;
     font-family: inherit;
     margin: 0;
+
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: white;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+ 
 }
 
 .dropdown-content a {
@@ -59,19 +60,24 @@ body
     text-align: left;
 }
 
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 .topnav a:hover, .dropdown:hover .dropbtn {
     background-color: #555;
     color: white;
+   text-decoration: underline;
 }
 
 .dropdown-content a:hover {
     background-color: #ddd;
+  
     color: black;
+  
 }
 
-.dropdown:hover .dropdown-content {
-    display: block;
-}
+
 
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child), .dropdown .dropbtn {

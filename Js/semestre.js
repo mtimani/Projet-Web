@@ -1,4 +1,4 @@
-(function() {
+function Image_Carousel() {
 
     function Slideshow( element ) {
         this.el = document.querySelector( element );
@@ -9,8 +9,7 @@
         init: function() {
             this.wrapper = this.el.querySelector( ".slider-wrapper" );
             this.slides = this.el.querySelectorAll( ".slide" );
-            this.previous = this.el.querySelector( ".slider-previous" );
-            this.next = this.el.querySelector( ".slider-next" );
+      
             this.index = 0;
             this.total = this.slides.length;
             this.timer = null;
@@ -33,7 +32,7 @@
             var self = this;
             self.timer = setInterval(function() {
                 self.index++;
-                if( self.index == self.slides.length ) {
+                if( self.index === self.slides.length ) {
                     self.index = 0;
                 }
                 self._slideTo( self.index );
@@ -63,7 +62,7 @@
     });
 
 
-})();
+}Image_Carousel();
 
 
 function showText_Mic() {
