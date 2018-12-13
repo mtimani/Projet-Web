@@ -1,0 +1,18 @@
+
+
+.container2 p{
+    text-align: left;
+}
+
+
+#box
+{
+    padding: 0.5em;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 10%;
+    position: center;
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    width: 80%;
+}

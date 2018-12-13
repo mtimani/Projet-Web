@@ -1,0 +1,93 @@
+.map h1{
+    text-align: center;
+}
+
+.map__img {
+    margin: auto;
+    background-color: white;
+    width: 80%;
+    height: auto;
+}
+
+#border_map {
+    margin: auto;
+    border: grey outset 10px;
+    border-radius: 10px;
+    background-color: white;
+    width: 80%;
+    height: auto;
+}
+
+.map__img path{
+    fill: lightskyblue;
+    stroke: white;
+    stroke-width: 1px;
+    transition: fill 0.3s;
+}
+
+
+.map__img path:hover{
+    fill: lightcoral;
+    cursor: pointer;
+}
+
+.zoom-svg-container {
+    position: relative;
+    display: block;
+   /* width: 50%;*/
+
+    overflow: hidden;
+
+}
+
+.zoom-svg-container:hover svg {
+    cursor: move;
+}
+
+
+.zoom-svg-zoom-in {
+    position: absolute;
+    top: 60px;
+    left:10px;
+}
+
+.zoom-svg-zoom-rst {
+    position: absolute;
+    top: 35px;
+    left: 10px;
+}
+
+.zoom-svg-zoom-out {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+
+.button{
+    width:30px;
+    background-color: white;
+    border: 1px solid deepskyblue;
+    color: deepskyblue;
+    height: 22px;
+    line-height: 18px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    user-select: none;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+}
+
+.button:hover{
+    background-color: lightgrey;
+}
+
+@media screen and (max-width: 600px) {
+    .map {
+        visibility: hidden;
+    }
+}
+

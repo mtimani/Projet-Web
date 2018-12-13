@@ -1,0 +1,52 @@
+@font-face{
+    font-family: "Abbeyline" ;
+    src : url('Abbeyline.ttf') ;
+}
+
+
+body {
+
+    margin: 10px 0 ;
+    padding:0;
+    text-align: center ;
+    font: 1em "Trebuchet MS", helvetica, sans-serif ;
+
+}
+
+.contact2 {
+    display: block;
+    padding-right: 1.2em;
+}
+
+.contact2 h1 {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.contact-form {
+    margin-left: 1em;
+    margin-right: 1em;
+    position: center;
+    justify-content: center;
+}
+
+.contact-form input {
+    position: center;
+    font-size: 15;
+    padding: 6px;
+    margin: 4px;
+    width: 100%;
+}
+
+#Main{
+    padding: 0.5em;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 10%;
+    position: center;
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    width: 80%;
+}

@@ -1,0 +1,99 @@
+ @font-face{
+  font-family: "Abbeyline" ;
+  src : url('Abbeyline.ttf') ; 
+ }
+ 
+ 
+ body {
+
+	margin: 10px 0 ;
+	padding:0;
+    text-align: center ;
+	font: 1em "Trebuchet MS", helvetica, sans-serif ;
+
+}
+
+ .Menu_lateral{
+     display: flex;
+ }
+
+ .Menu_lateral a{
+     color: white;
+ }
+
+ #et1{
+     margin-left: 5%;
+ }
+
+ #et2{
+     margin-left: 3%;
+ }
+
+ #et3{
+     margin-left: 3%;
+ }
+
+ #et4{
+     margin-left: 3%;
+ }
+
+ #et5{
+     margin-left: 3%;
+ }
+
+ #et6{
+     margin-left: 3%;
+ }
+
+ #et7{
+     margin-left: 3%;
+ }
+
+#box{
+    padding: 0.5em;
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 10%;
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    width: 80%;
+}
+
+#box h1{
+    text-align: center;
+    color: white;
+}
+
+ #etape1{
+    margin-top: 5%;
+ }
+
+ #etape2{
+     margin-top: 5%;
+ }
+
+ #etape2{
+     margin-top: 5%;
+ }
+
+ #etape3{
+     margin-top: 5%;
+ }
+
+ #etape4{
+     margin-top: 5%;
+ }
+
+ #etape5{
+     margin-top: 5%;
+ }
+
+ #etape6{
+     margin-top: 5%;
+ }
+
+ #etape7{
+     margin-top: 5%;
+ }
+

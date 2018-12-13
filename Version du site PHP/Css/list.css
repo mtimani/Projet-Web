@@ -1,0 +1,100 @@
+@font-face{
+    font-family: "Abbeyline" ;
+    src : url('Abbeyline.ttf') ;
+}
+
+
+body {
+
+    margin: 10px 0 ;
+    padding:0;
+    text-align: center ;
+    font: 1em "Trebuchet MS", helvetica, sans-serif ;
+
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+    margin-top: 40px;
+}
+
+.container2 h1{
+    color: white;
+    text-align: center;
+}
+
+#box
+{
+    padding: 0.5em;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 10%;
+    position: center;
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    width: 80%;
+    
+}
+
+#box a{
+    color: white;
+}
+
+.list{
+    margin-top: 2%;
+    display: flex;
+}
+
+#Zoneamerique{
+    margin-left: -2%;
+}
+
+#Zoneasie{
+    margin-left: 7%;
+}
+
+#Zoneeurope{
+    margin-left: 3%;
+}
+
+#spaceblock
+{
+    
+    
+    height: 100px;
+    
+    
+}
+
+#Zonetext
+{display: inline-block;
+text-align: center}
+
+#worldgif
+{
+    width: 50%;
+    height: 30%;
+    margin-top: 4%;
+}
+
+@media screen and (max-width: 600px) {
+    .list {
+        margin-top: 2%;
+        margin-left: -10%;
+        display: block;
+    }
+
+    #Zoneamerique{
+        margin-top: 5%;
+    }
+
+    #Zoneasie{
+        margin-top: 10%;
+    }
+
+    #Zoneeurope{
+        margin-top: 10%;
+    }
+}

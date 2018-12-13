@@ -1,0 +1,63 @@
+@font-face{
+    font-family: "Abbeyline" ;
+    src : url('Abbeyline.ttf') ;
+}
+
+
+body {
+
+    margin: 10px 0 ;
+    padding:0;
+    text-align: center ;
+    font: 1em "Trebuchet MS", helvetica, sans-serif ;
+
+}
+
+
+.container{
+    display: flex;
+    margin-bottom: 5%;
+    margin-top: 40px;
+}
+
+#Main_1{
+    padding: 4em;
+    margin-left: 3%;
+    position: center;
+    text-align: center;
+    background-color: rgba(0,0,0,0.6);
+    color: #FFF;
+    width: 30%;
+    height: 20%;
+}
+
+#Main_2{
+    padding: 3em;
+    margin-left: 3%;
+    position: center;
+    text-align: center;
+    background-color: rgba(0,0,0,0.6);
+    width: 50%;
+    height: 20%;
+}
+
+.map__img{
+    padding-top: 5%;
+    width: 80%;
+}
+
+@media screen and (max-width: 1000px) {
+    #Main_1{
+        padding: 4em;
+        margin-left: 5%;
+        position: center;
+        text-align: center;
+        background-color: rgba(0,0,0,0.6);
+        color: #FFF;
+        width: 50%;
+        height: 10%;
+    }
+    #Main_2{
+        display: none;
+    }
+}
