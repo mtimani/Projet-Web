@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Home</title>
+        <title>Accueil</title>
         <link rel="stylesheet" href="Css/menu.css"/>
         <link rel="stylesheet" href="Css/previews.css"/>
         <link rel="stylesheet" href="Css/app.css">
