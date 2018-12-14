@@ -102,6 +102,7 @@ $.fn.zoomSvg = function(options)
 
 		};
 
+		//Resize the page
         var resize_map = function () {
             $("#border_map").css("width", "50%");
             $("#border_map").css("height", "auto");
