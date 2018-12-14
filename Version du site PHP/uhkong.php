@@ -8,7 +8,6 @@
             <link rel="stylesheet" href="Css/semestre.css">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
             <script src="Js/semestre.js"></script>
-            <script src="Js/buttons.js"></script>
             <script src="Js/menu.js"></script>
             <script src="jQuery/jquery-3.3.1.js"></script>
             <script src="jQuery/jquery-3.3.1.js"></script>
