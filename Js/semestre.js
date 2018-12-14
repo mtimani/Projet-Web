@@ -66,10 +66,10 @@ function Image_Carousel() {
 
 
 function showText_Mic() {
-    document.getElementById('Info_Imacs').style.display = "none";
-    document.getElementById('Info_Icbe').style.display = "none";
-    document.getElementById('Info_Ic').style.display = "none";
-    document.getElementById('Info_Mic').style.display = "block";
+    document.getElementById('Info_Imacs').style.display = "none";// permet de masquer les éléments de ID Imac 
+    document.getElementById('Info_Icbe').style.display = "none";//permet de masquer les éléments de ID ICBE
+    document.getElementById('Info_Ic').style.display = "none";//permet de masquer les éléments de ID IC
+    document.getElementById('Info_Mic').style.display = "block";//permet d'afficher les élements de Id Info_MIc
 }
 function showText_Imacs() {
     document.getElementById('Info_Icbe').style.display = "none";
