@@ -26,12 +26,12 @@
             <h1>UNIVERSITÉS</h1>
             <div id=Zonetext><br>L'INSA de Toulouse propose des échanges avec des pays dans tout le monde. Vous trouverez en dessous les différents universités que l'on vous propose. </div>
             <div>
-                <img id="worldgif" src="../imgs/giphy.gif">
+                <img id="worldgif" src="imgs/giphy.gif">
                 <br />
                 <div>
                     <ul class="list">
                         <div id="Zoneamerique"> <h2>ZONE AMÉRIQUE</h2><br>
-                            <a href="austin.html" target="_blank">Université de Austin (Etats Unis) </a><br>
+                            <a href="austin.php" target="_blank">Université de Austin (Etats Unis) </a><br>
                             <p> Université de Concordia (Canada)<br>
                             <p> Université de Sherbrooke (Canada)<br>
                             <p> Faculté d'Ingénierie de l'Université de Buenos Ariers (Argentine)<br>
@@ -40,7 +40,7 @@
                             <p>Université Autonome Métroplolitaine(Méxique)<br></p>
                         </div>
                         <div id="Zoneeurope"><h2>ZONE EUROPE</h2><br>
-                            <a href="univberlin.html" target="_blank">Université Humblodt de Berlin (Allemagne) </a><br>
+                            <a href="univberlin.php" target="_blank">Université Humblodt de Berlin (Allemagne) </a><br>
                             <p>Université de Barcelone (Espagne)<br>
                             <p>Université de Madrid (Espagne)<br>
                             <p>Polytechnique de Milan (Italie)<br>
@@ -48,7 +48,7 @@
                             <p>University of Leicester (Angleterre)<br></p>
                         </div>
                         <div id="Zoneasie"><h2>ZONE ASIE</h2><br>
-                            <a href="uhkong.html" target="_blank"> University of Hong Kong (Chine)</a><br>
+                            <a href="uhkong.php" target="_blank"> University of Hong Kong (Chine)</a><br>
                             <p> University Technologique de Malaisie (Malaisie)<br>
                             <p>Université Polytechnique de Saint-Petersbourg<br>
                             <p>Université Nationale de Séoul(République de Corée)<br>
