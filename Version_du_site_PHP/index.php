@@ -117,12 +117,11 @@
 
             </div>
 
-          <script type="text/javascript">
+            <script type="text/javascript">
                 $('.preview_close').click( function (){
                     $('.preview').css({ "visibility": "hidden"});
                 });
-
-          </script>
+            </script>
             <script src="Js/previews_plugin.js" type="text/javascript"></script>
             <script src="Js/previews.js" type="text/javascript"></script>
 
