@@ -17,48 +17,28 @@
         <script src="jQuery/jquery-ui-1.12.1/jquery-ui.js"></script>
         <script src="Zoom/dist/jquery.zoom-svg.js"></script>
     </head>
+
     <body>
+
         <?php include('menu.php');?>
-    
 
-
-<div id="box" class="container2">
-       
-    
-    
-    <h1 id="pourquoipartir">Pourquoi partir à l'étranger</h1>    
-    
-    <p > Partez pour un semestre à l'étranger pour étudier et améliorer la langue de votre choix et vous ouvrir aux nombreuses opportunités accessibles à l'international. Faire un semestre à l'étranger est le meilleur moyen de se plonger dans une nouvelle culture, et ainsi accelérer l’apprentissage de la langue grâce à une pratique quotienne.
-
- </p>   
-       
-  <h1>Deadlines</h1>     
-  <p id ="deadlines">
-    
-Octobre: Définition du projet avec le coordinateur de département
-    </br> </br>      
-Novembre: Learning (listes des cours équivalents) et fiche projet
-     </br>  </br> 
-Decembre: Placement des voeux sur MoveOnline
-     </br>  </br> 
-Janvier-Juin: Candidatures auprès des universités respectives
-</br> </br> 
-Fevrier: Premaration de départ
- </br>      </br> 
-Mai-Juin: Dossiers de bourses et préparations de documents de voyages
-  </br>     </br> 
-Aout-Septembre: DEPART! 
-    
-    
-    
-    
-    </p>
-    
-    
-     
-       </div>
-
+        <div id="box" class="container2">
+            <h1 id="pourquoipartir">Pourquoi partir à l'étranger</h1>
+            <p> Partez pour un semestre à l'étranger pour étudier et améliorer la langue de votre choix et vous ouvrir aux nombreuses opportunités accessibles à l'international. Faire un semestre à l'étranger est le meilleur moyen de se plonger dans une nouvelle culture, et ainsi accelérer l’apprentissage de la langue grâce à une pratique quotienne.
+            </p>
+            <h1>Deadlines</h1>
+            <p id ="deadlines">
+                Octobre: Définition du projet avec le coordinateur de département <br> <br>
+                Novembre: Learning (listes des cours équivalents) et fiche projet <br> <br>
+                Decembre: Placement des voeux sur MoveOnline <br> <br>
+                Janvier-Juin: Candidatures auprès des universités respectives <br> <br>
+                Fevrier: Premaration de départ <br> <br>
+                Mai-Juin: Dossiers de bourses et préparations de documents de voyages <br> <br>
+                Aout-Septembre: DEPART!
+            </p>
+        </div>
 
         <?php include('footer.php');?>
+
     </body>
 </html>
