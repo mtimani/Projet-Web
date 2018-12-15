@@ -9,7 +9,7 @@
     height: auto;
 }
 
-#border_map {
+#map_border {
     margin: auto;
     border: grey outset 10px;
     border-radius: 10px;

@@ -10,13 +10,13 @@ body {
     font: 1em "Trebuchet MS", helvetica, sans-serif ;
 }
 
-.container{
+#main_content{
     display: flex;
     margin-bottom: 5%;
     margin-top: 40px;
 }
 
-#Main_1{
+#presentation{
     padding: 4em;
     margin-left: 3%;
     position: center;
@@ -27,7 +27,7 @@ body {
     height: 20%;
 }
 
-#Main_2{
+#map_frame{
     padding: 3em;
     margin-left: 3%;
     position: center;
@@ -44,7 +44,7 @@ body {
 
 @media screen and (max-width: 1000px) { /* Adaptation du texte et disparition de la map pour
                                         tous les écrans de largeur inférieure à 1000px */
-    #Main_1{
+    #presentation{
         padding: 4em;
         margin-left: 5%;
         position: center;
@@ -54,7 +54,7 @@ body {
         width: 50%;
         height: 10%;
     }
-    #Main_2{
+    #map_frame{
         display: none;
     }
 }
