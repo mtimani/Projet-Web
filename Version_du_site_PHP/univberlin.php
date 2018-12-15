@@ -27,11 +27,11 @@
                 </div>
                 <div class="slider" id="main-slider">
                     <div class="slider-wrapper">
-                        <img src="../imgs/berlin/1.jpg" alt="First" class="slide" />
-                        <img src="../imgs/berlin/2.jpg" alt="Second" class="slide" />
-                        <img src="../imgs/berlin/3.jpg" alt="Third" class="slide" />
-                        <img src="../imgs/berlin/4.jpg" alt="Fourth" class="slide"/>
-                        <img src="../imgs/berlin/5.jpg" alt="Fifth" class="slide"/>
+                        <img src="imgs/berlin/1.jpg" alt="First" class="slide" />
+                        <img src="imgs/berlin/2.jpg" alt="Second" class="slide" />
+                        <img src="imgs/berlin/3.jpg" alt="Third" class="slide" />
+                        <img src="imgs/berlin/4.jpg" alt="Fourth" class="slide"/>
+                        <img src="imgs/berlin/5.jpg" alt="Fifth" class="slide"/>
                     </div>
                 </div>
                 <div id="Description">

@@ -26,7 +26,7 @@
             <h1>UNIVERSITÉS</h1>
             <div id=Zonetext><br>L'INSA de Toulouse propose des échanges avec des pays dans tout le monde. Vous trouverez en dessous les différents universités que l'on vous propose. </div>
             <div>
-                <img id="worldgif" src="../imgs/giphy.gif">
+                <img id="worldgif" src="imgs/giphy.gif">
                 <br />
                 <div>
                     <ul class="list">
