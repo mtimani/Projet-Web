@@ -72,6 +72,7 @@ $.fn.zoomSvg = function(options)
 
 		// Wheel
 		//No need of this features, inconvenient for some laptop
+		/*
 		$(div).mousewheel(function(event) {
 			//console.log("Wheel", event.deltaY);
 			if (event.deltaY > 0)
@@ -79,6 +80,7 @@ $.fn.zoomSvg = function(options)
 			else
 				$(zoomOut).trigger("click");
 		});
+		*/
 
 
 		// Functions
