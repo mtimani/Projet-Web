@@ -135,7 +135,7 @@
 
 
 
-/* Workflow */
-#BF, #US, #DE, #CN, #TW{
-    fill: #C70115;
+/* Countries with a preview */
+#US, #DE, #CN, #TW{
+    fill: #67d360;
 }
