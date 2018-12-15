@@ -3,16 +3,12 @@
     src : url('Abbeyline.ttf') ;
 }
 
-
 body {
-
     margin: 10px 0 ;
     padding:0;
     text-align: center ;
     font: 1em "Trebuchet MS", helvetica, sans-serif ;
-
 }
-
 
 #Main{
     padding: 0.5em;

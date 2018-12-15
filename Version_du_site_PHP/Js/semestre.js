@@ -65,25 +65,25 @@ function Image_Carousel() {
 }Image_Carousel();
 
 
-function showText_Mic() {
-    document.getElementById('Info_Imacs').style.display = "none";
-    document.getElementById('Info_Icbe').style.display = "none";
-    document.getElementById('Info_Ic').style.display = "none";
-    document.getElementById('Info_Mic').style.display = "block";
-}
-function showText_Imacs() {
+function showText_Mic() { //Fonction executée au clic sur le bouton MIC
+    document.getElementById('Info_Imacs').style.display = "none"; //Masquer le texte de la div d'id Info_Imacs
+    document.getElementById('Info_Icbe').style.display = "none"; //Masquer le texte de la div d'id Info_Icbe
+    document.getElementById('Info_Ic').style.display = "none"; //Masquer le texte de la div d'id Info_Ic
+    document.getElementById('Info_Mic').style.display = "block"; //Afficher le texte de la div d'id Info_Mic
+
+function showText_Imacs() { //Fonction executée au clic sur le bouton IMACS
     document.getElementById('Info_Icbe').style.display = "none";
     document.getElementById('Info_Ic').style.display = "none";
     document.getElementById('Info_Mic').style.display = "none";
     document.getElementById('Info_Imacs').style.display = "block";
 }
-function showText_Icbe() {
+function showText_Icbe() { //Fonction executée au clic sur le bouton ICBE
     document.getElementById('Info_Imacs').style.display = "none";
     document.getElementById('Info_Ic').style.display = "none";
     document.getElementById('Info_Mic').style.display = "none";
     document.getElementById('Info_Icbe').style.display = "block";
 }
-function showText_Ic() {
+function showText_Ic() { //Fonction executée au clic sur le bouton IC
     document.getElementById('Info_Imacs').style.display = "none";
     document.getElementById('Info_Icbe').style.display = "none";
     document.getElementById('Info_Mic').style.display = "none";

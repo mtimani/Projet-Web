@@ -3,16 +3,12 @@
     src : url('Abbeyline.ttf') ;
 }
 
-
 body {
-
     margin: 10px 0 ;
     padding:0;
     text-align: center ;
     font: 1em "Trebuchet MS", helvetica, sans-serif ;
-
 }
-
 
 .container{
     display: flex;
@@ -46,7 +42,8 @@ body {
     width: 80%;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) { /* Adaptation du texte et disparition de la map pour
+                                        tous les écrans de largeur inférieure à 1000px */
     #Main_1{
         padding: 4em;
         margin-left: 5%;
