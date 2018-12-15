@@ -9,7 +9,7 @@ function Image_Carousel() {
         init: function() {
             this.wrapper = this.el.querySelector( ".slider-wrapper" );
             this.slides = this.el.querySelectorAll( ".slide" );
-      
+
             this.index = 0;
             this.total = this.slides.length;
             this.timer = null;
@@ -65,19 +65,11 @@ function Image_Carousel() {
 }Image_Carousel();
 
 
-<<<<<<< HEAD
 function showText_Mic() { //Fonction executée au clic sur le bouton MIC
     document.getElementById('Info_Imacs').style.display = "none"; //Masquer le texte de la div d'id Info_Imacs
     document.getElementById('Info_Icbe').style.display = "none"; //Masquer le texte de la div d'id Info_Icbe
     document.getElementById('Info_Ic').style.display = "none"; //Masquer le texte de la div d'id Info_Ic
     document.getElementById('Info_Mic').style.display = "block"; //Afficher le texte de la div d'id Info_Mic
-=======
-function showText_Mic() {
-    document.getElementById('Info_Imacs').style.display = "none";// permet de masquer les éléments de ID Imac 
-    document.getElementById('Info_Icbe').style.display = "none";//permet de masquer les éléments de ID ICBE
-    document.getElementById('Info_Ic').style.display = "none";//permet de masquer les éléments de ID IC
-    document.getElementById('Info_Mic').style.display = "block";//permet d'afficher les élements de Id Info_MIc
->>>>>>> 04cf10d22c31c28bf68b566f090e911416dd22c8
 }
 function showText_Imacs() { //Fonction executée au clic sur le bouton IMACS
     document.getElementById('Info_Icbe').style.display = "none";
