@@ -1,6 +1,7 @@
 body
-{background-image:url("bg4.jpg");
+{background-image:url("../imgs/bg4.jpg");
 }
+
 .barrenav {
     background-color: black;
     overflow: hidden;
@@ -79,7 +80,7 @@ body
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) { /* Changement de design du menu pour tout écran de largeur inférieure à 600px */
     .barrenav a:not(:first-child), .deroulant .bouton-deroulant {
         display: none;
     }
@@ -104,16 +105,6 @@ body
         display: block;
         width: 100%;
         text-align: left;
-    }
-    footer
-    {
-        width: 100% ;
-        background-color : grey;
-        padding : 30px 0px ;
-        position: relative;
-        margin-top: 40px;
-        margin-left: -8px;
-        bottom: 0px;
     }
 }
 

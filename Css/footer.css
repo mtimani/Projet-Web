@@ -38,3 +38,16 @@ footer a{
     color: white ;
     text-align: center;
 }
+
+@media screen and (max-width: 600px) { /* Changement de design du footer pour tout écran de largeur inférieure à 600px */
+    footer
+    {
+        width: 100% ;
+        background-color : grey;
+        padding : 30px 0px ;
+        position: relative;
+        margin-top: 40px;
+        margin-left: -8px;
+        bottom: 0px;
+    }
+}
