@@ -104,12 +104,12 @@ $.fn.zoomSvg = function(options)
 
 		};
 
-        var resize_map = function () {
-            $("#border_map").css("width", "50%");
-            $("#border_map").css("height", "auto");
+        window.onresize = function () {
+            var map_frame = $("#map_frame");
+            $(map_frame).css("width", "70%");
+			$(map_frame).css("height", "auto");
         };
 
-        window.onresize = resize_map;
 
 	})
 };
