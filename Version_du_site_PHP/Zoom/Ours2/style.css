@@ -1,0 +1,233 @@
+html, body{
+  height: 150%;
+}
+body {
+			background-image: url(1.jpeg) ;
+			background-position: center center;
+			background-repeat:  no-repeat;
+			background-attachment: fixed;
+			background-size:  cover;
+			background-color: #999;
+
+}
+
+div, body{
+  margin: 0;
+  padding: 0;
+  font-family: exo, sans-serif;
+
+}
+.wrapper {
+  height: 100%;
+  width: 100%;
+}
+
+.message {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  height:45%;
+  bottom: 0;
+  display: block;
+  position: absolute;
+  background-color: rgba(0,0,0,0.6);
+  color: #fff;
+  padding: 0.5em;
+}
+
+a {
+  color: white;
+  text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+}
+
+.col-3 {
+    text-align: center;
+    font-size: 24px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    }
+
+#sidebar-wrapper {
+    z-index: 1;
+    position: absolute;
+    width: 0;
+    height: 100%;
+    overflow-y: hidden;
+    background: #2c3E50;
+    opacity: 0.9;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+    border: 5px;
+}
+
+#wrapper-menuDisplayed #sidebar-wrapper {
+    width: 250px;
+}
+
+#wrapper-menuDisplayed #page-content-wrapper {
+    padding-left: 250px;
+}
+
+.sidebar-nav {
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #ddd;
+}
+
+.sidebar-nav li a:hover {
+    background: #16A0;
+}
+
+#Title {
+    background-color: none;
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    padding: 0.5em;
+}
+
+#About {
+      background-color: rgba(0,0,0,0.6);
+      color: #fff;
+      padding: 0.5em;
+      position: absolute;
+      top: 3%;
+      left: 25%;
+      width: 70%;
+      text-align: center;
+}
+
+
+#Menu {
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 100px;
+    color: #fff;
+    padding: 0.5em;
+    margin-top: 20px;
+    text-align: center;
+    height: auto;
+}
+
+#Menu2 {
+    top: 3%;
+    left: 3%;
+    width: 17%;
+    position: fixed;
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    padding: 0.5em;
+}
+
+#Main {
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    padding: 0.5em;
+}
+
+#Video {
+    margin-top: 1% ;
+}
+
+#LOL {
+    margin-left: 15px;
+}
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#Hi1 {
+    text-align: center;
+}
+
+#Hi2 {
+    margin-top: 30px;
+    text-align: center;
+    color: #9932CC;
+    text-decoration: underline;
+}

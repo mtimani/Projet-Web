@@ -32,13 +32,14 @@ $.fn.zoomSvg = function(options)
 
 		// Fix div size
 		var height = Math.round(width * viewRatio);					//h
-		$(div).css("width", width);
+		$(div).css("width", width); /* Takes the width of the svg, same for the height */
 		$(div).css("height", height);
 
 		// Drag
-		$(svg).draggable();
+		$(svg).draggable(); /* Allow the svg to move */
 
 		// Zooms
+		/* Add a condition to avoid infinite zoom */
 		$(zoomIn).click(function() {
             if(zoom+step <=350) {
                 zoom += step;
@@ -55,8 +56,8 @@ $.fn.zoomSvg = function(options)
 		});
 
 		$(zoomRst).click(function() {
-			zoom = 100;
-			$(svg).css({"top": "0px", "left": "0px"});
+			zoom = 100; /* zoom retake its initial value */
+			$(svg).css({"top": "0px", "left": "0px"}); /* take the map back of its initial position*/
 			scale();
 		});
 
@@ -70,13 +71,16 @@ $.fn.zoomSvg = function(options)
 		});
 
 		// Wheel
+		//No need of this features, inconvenient for some laptop
+		/*
 		$(div).mousewheel(function(event) {
 			//console.log("Wheel", event.deltaY);
 			if (event.deltaY > 0)
 				$(zoomIn).trigger("click");
 			else
-				$(zoomOut).trigger("click");			
+				$(zoomOut).trigger("click");
 		});
+		*/
 
 
 		// Functions
@@ -102,12 +106,12 @@ $.fn.zoomSvg = function(options)
 
 		};
 
-        var resize_map = function () {
-            $("#border_map").css("width", "50%");
-            $("#border_map").css("height", "auto");
+        window.onresize = function () {
+            var map_frame = $("#map_frame");
+            $(map_frame).css("width", "70%");
+			$(map_frame).css("height", "auto");
         };
 
-        window.onresize = resize_map;
 
 	})
 };

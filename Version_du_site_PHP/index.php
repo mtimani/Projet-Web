@@ -5,8 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Accueil</title>
         <link rel="stylesheet" href="Css/menu.css"/>
-        <link rel="stylesheet" href="Css/previews.css"/>
         <link rel="stylesheet" href="Css/app.css">
+        <link rel="stylesheet" href="Css/previews.css"/>
         <link rel="stylesheet" href="Css/map.css"/>
         <link rel="stylesheet" href="Css/footer.css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -17,10 +17,11 @@
         <script src="Zoom/dist/jquery.zoom-svg.js"></script>
     </head>
     <body>
+
         <?php include('menu.php');?>
 
-        <div id="Main" class="container">
-            <div id="Main_1">
+        <div id="main_content">
+            <div id="presentation">
                 <h1>Site consacré aux semestres à l'étranger</h1>
                 <p>
                     Partez pour un semestre à l'étranger pour étudier et améliorer la langue de votre choix et vous ouvrir aux nombreuses opportunités accessibles à l'international.
@@ -28,33 +29,9 @@
                 </p>
               
             </div>
-            <?php include('map.php'); ?>
 
-            <div id="preview_BF" class="preview">
-                <span  class="preview_close">Close</span><br/>
-                <img class="preview_flagcountry" src="imgs/flag_bf.png">
+            <?php include('map.php');?>
 
-                <div class="preview_container">
-                    <div class="preview_namecountry">Burkina Faso</div>
-                    <div class="preview_title">Universities</div>
-
-                    <div id="univ_list">
-                        <div class="preview_university">
-                            <img class="preview_univ_logo" src="imgs/logo_upb.jpg"> <a class="preview_univ_name" href="#">Ecole Supérieure d'Informatique / UPB</a>
-                        </div>
-
-                        <div class="preview_university">
-                            <img class="preview_univ_logo" src="imgs/logo_uo_bf.jpg"> <a class="preview_univ_name" href="#">Université de Ouagadougou</a>
-                        </div>
-
-                        <div class="preview_university">
-                            <img class="preview_univ_logo" src="imgs/logo_2ie_bf.jpg"> <a class="preview_univ_name" href="#">2iE / Ouaga</a>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
 
             <div id="preview_US" class="preview">
                 <span  class="preview_close">Close</span><br/>
@@ -117,16 +94,24 @@
 
             </div>
 
-            <script type="text/javascript">
-                $('.preview_close').click( function (){
-                    $('.preview').css({ "visibility": "hidden"});
-                });
-            </script>
-            <script src="Js/previews_plugin.js" type="text/javascript"></script>
-            <script src="Js/previews.js" type="text/javascript"></script>
+
 
         </div>
 
         <?php include('footer.php');?>
+
+        <script type="text/javascript">
+            $('.preview_close').click( function (){
+                $('.preview').css({ "visibility": "hidden"});
+            });
+
+        </script>
+        <script src="Js/previews_plugin.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            $("#c_DE").previewedBy("#preview_DE");
+            $("#c_US").previewedBy("#preview_US");
+            $("#c_CN").previewedBy("#preview_CN");
+        </script>
+      <!--  <script src="Js/previews.js" type="text/javascript"></script> -->
     </body>
 </html>

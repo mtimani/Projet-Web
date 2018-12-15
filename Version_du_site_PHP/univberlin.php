@@ -3,20 +3,22 @@
         <head>
             <meta charset="utf-8" />
             <title>Université Humblodt de Berlin</title>
-            <link rel="stylesheet" href="Css/menu.css">
-            <link rel="stylesheet" href="Css/footer.css">
-            <link rel="stylesheet" href="Css/semestre.css">
+            <link rel="stylesheet" href="../Css/menu.css">
+            <link rel="stylesheet" href="../Css/footer.css">
+            <link rel="stylesheet" href="../Css/semestre.css">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-            <script src="Js/semestre.js"></script>
-            <script src="Js/menu.js"></script>
-            <script src="jQuery/jquery-3.3.1.js"></script>
-            <script src="jQuery/jquery-3.3.1.js"></script>
-            <script src="jQuery/jquery-mousewheel-3.1.13/jquery.mousewheel.js"></script>
-            <script src="jQuery/jquery-ui-1.12.1/jquery-ui.js"></script>
-            <script src="Zoom/dist/jquery.zoom-svg.js"></script>
+            <script src="../Js/semestre.js"></script>
+            <script src="../Js/menu.js"></script>
+            <script src="../jQuery/jquery-3.3.1.js"></script>
+            <script src="../jQuery/jquery-3.3.1.js"></script>
+            <script src="../jQuery/jquery-mousewheel-3.1.13/jquery.mousewheel.js"></script>
+            <script src="../jQuery/jquery-ui-1.12.1/jquery-ui.js"></script>
+            <script src="../Zoom/dist/jquery.zoom-svg.js"></script>
         </head>
         <body>
+
             <?php include('menu.php');?>
+
             <div id="Main">
                 <div id="banniere_description">
                     <h2>UNIVERSITÉ HUMBOLDT DE BERLIN</h2>
@@ -25,11 +27,11 @@
                 </div>
                 <div class="slider" id="main-slider">
                     <div class="slider-wrapper">
-                        <img src="imgs/berlin/1.jpg" alt="First" class="slide" />
-                        <img src="imgs/berlin/2.jpg" alt="Second" class="slide" />
-                        <img src="imgs/berlin/3.jpg" alt="Third" class="slide" />
-                        <img src="imgs/berlin/4.jpg" alt="Fourth" class="slide"/>
-                        <img src="imgs/berlin/5.jpg" alt="Fifth" class="slide"/>
+                        <img src="../imgs/berlin/1.jpg" alt="First" class="slide" />
+                        <img src="../imgs/berlin/2.jpg" alt="Second" class="slide" />
+                        <img src="../imgs/berlin/3.jpg" alt="Third" class="slide" />
+                        <img src="../imgs/berlin/4.jpg" alt="Fourth" class="slide"/>
+                        <img src="../imgs/berlin/5.jpg" alt="Fifth" class="slide"/>
                     </div>
                 </div>
                 <div id="Description">

@@ -10,31 +10,26 @@ body {
     font: 1em "Trebuchet MS", helvetica, sans-serif ;
 }
 
-.container{
-    display: flex;
-    margin-bottom: 5%;
-    margin-top: 40px;
+#main_content{
+    margin-bottom: 20%;
+    margin-top: 5%;
 }
 
-#Main_1{
-    padding: 4em;
-    margin-left: 3%;
-    position: center;
-    text-align: center;
+#presentation{
+    padding: 3em;
+    margin: 0 15% 1% 15%;
+    width: 70%;
     background-color: rgba(0,0,0,0.6);
     color: #FFF;
-    width: 30%;
-    height: 20%;
+
 }
 
-#Main_2{
+#map_frame{
     padding: 3em;
-    margin-left: 3%;
-    position: center;
-    text-align: center;
+    margin: 0 15% 0 15%;
+    width: 70%;
+    height: auto;
     background-color: rgba(0,0,0,0.6);
-    width: 50%;
-    height: 20%;
 }
 
 .map__img{
@@ -44,7 +39,7 @@ body {
 
 @media screen and (max-width: 1000px) { /* Adaptation du texte et disparition de la map pour
                                         tous les écrans de largeur inférieure à 1000px */
-    #Main_1{
+    #presentation{
         padding: 4em;
         margin-left: 5%;
         position: center;
@@ -54,7 +49,7 @@ body {
         width: 50%;
         height: 10%;
     }
-    #Main_2{
+    #map_frame{
         display: none;
     }
 }

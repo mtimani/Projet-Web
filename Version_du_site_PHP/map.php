@@ -1,24 +1,20 @@
 <!DOCTYPE html>
 <html>
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Home</title>
-        <link rel="stylesheet" href="Css/menu.css"/>
-        <link rel="stylesheet" href="Css/previews.css"/>
-        <link rel="stylesheet" href="Css/app.css">
         <link rel="stylesheet" href="Css/map.css"/>
-        <link rel="stylesheet" href="Css/footer.css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src="Js/menu.js"></script>
         <script src="jQuery/jquery-3.3.1.js"></script>
         <script src="jQuery/jquery-mousewheel-3.1.13/jquery.mousewheel.js"></script>
         <script src="jQuery/jquery-ui-1.12.1/jquery-ui.js"></script>
         <script src="Zoom/dist/jquery.zoom-svg.js"></script>
     </head>
+
     <body>
-        <div id="Main_2" class="map">
-            <div id="border_map">
+        <div id="map_frame" class="map">
+            <div id="map_border">
                 <h1>World Map</h1>
                 <div class="map__img zoom-svg-container">
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:amcharts="http://amcharts.com/ammap" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 1100 680">
@@ -565,4 +561,5 @@
             </script>
         </div>
     </body>
+
 </html>

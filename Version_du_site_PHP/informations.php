@@ -5,17 +5,17 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Informations</title>
-        <link rel="stylesheet" href="Css/menu.css"/>
-        <link rel="stylesheet" href="Css/app.css">
-        <link rel="stylesheet" href="Css/map.css"/>
-        <link rel="stylesheet" href="Css/footer.css"/>
-        <link rel="stylesheet" href="Css/informations.css"/>
+        <link rel="stylesheet" href="../Css/menu.css"/>
+        <link rel="stylesheet" href="../Css/app.css">
+        <link rel="stylesheet" href="../Css/map.css"/>
+        <link rel="stylesheet" href="../Css/footer.css"/>
+        <link rel="stylesheet" href="../Css/informations.css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src="Js/menu.js"></script>
-        <script src="jQuery/jquery-3.3.1.js"></script>
-        <script src="jQuery/jquery-mousewheel-3.1.13/jquery.mousewheel.js"></script>
-        <script src="jQuery/jquery-ui-1.12.1/jquery-ui.js"></script>
-        <script src="Zoom/dist/jquery.zoom-svg.js"></script>
+        <script src="../Js/menu.js"></script>
+        <script src="../jQuery/jquery-3.3.1.js"></script>
+        <script src="../jQuery/jquery-mousewheel-3.1.13/jquery.mousewheel.js"></script>
+        <script src="../jQuery/jquery-ui-1.12.1/jquery-ui.js"></script>
+        <script src="../Zoom/dist/jquery.zoom-svg.js"></script>
     </head>
 
     <body>
@@ -32,13 +32,12 @@
                 Novembre: Learning (listes des cours équivalents) et fiche projet <br> <br>
                 Decembre: Placement des voeux sur MoveOnline <br> <br>
                 Janvier-Juin: Candidatures auprès des universités respectives <br> <br>
-                Fevrier: Premaration de départ <br> <br>
+                Fevrier: Preparation de départ <br> <br>
                 Mai-Juin: Dossiers de bourses et préparations de documents de voyages <br> <br>
                 Aout-Septembre: DEPART!
             </p>
         </div>
 
         <?php include('footer.php');?>
-
     </body>
 </html>

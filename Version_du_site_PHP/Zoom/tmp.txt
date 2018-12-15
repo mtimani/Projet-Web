@@ -1,0 +1,105 @@
+viewBox="0 0 1020 660"
+
+
+const NAV_MAP = {
+    107: { act: 'zoom', dir:  1, name: 'in' },
+    109: { act: 'zoom', dir: -1, name: 'out'},
+    37:  { act: 'move', dir: -1, name: 'left', axis: 0 },
+    38:  { act: 'move', dir: -1, name: 'up', axis: 1 },
+    39:  { act: 'move', dir:  1, name: 'right', axis: 0 },
+    40:  { act: 'move', dir:  1, name: 'down', axis: 1 }
+    },
+    _SVG = document.querySelector('svg'),
+    VB = _SVG.getAttribute('viewBox').split(' ').map(c => +c),
+    DMAX = VB.slice(2), WMIN = 8, NF = 32;
+
+    console.log(DMAX);
+
+let nav = null, tg = Array(4), f = 0, rID = null;
+
+function update(){
+    let k = ++f/NF, j = 1 - k, cvb = VB.slice();
+
+    if(nav.act == 'zoom'){
+        for(let i = 0; i < 4; i++){
+            cvb[i] = j*VB[i] + k*tg[i]
+        }
+    }
+    else if(nav.act == 'move') {
+        cvb[nav.axis] = j*VB[nav.axis] + k*tg[nav.axis]
+    }
+
+    _SVG.setAttribute('viewBox',cvb.join(' '));
+
+    if(!(f%NF)){
+        cancelAnimationFrame(rID);
+        rID = nav = null;
+        f = 0;
+        tg = Array(4);
+        VB.splice(0,4, ...cvb);
+        return
+    }
+
+    rID = requestAnimationFrame(update)
+}
+
+addEventListener('keyup',e => {
+    console.log(e.keyCode);
+    if(e.keyCode in NAV_MAP) {
+        nav = NAV_MAP[e.keyCode];
+
+        if(nav.act == 'zoom'){
+            if ((nav.dir == -1 && VB[2] >= DMAX[0]) ||
+                (nav.dir == 1 && VB[2] <= WMIN)){
+                console.log('cannot zoom ${nav.name} more');
+            }
+            for(let i = 0; i < 2 ; i++) {
+                tg[i + 2] = VB[i + 2] / Math.pow(2, nav.dir);
+                tg[i] = .5 * (DMAX[i] - tg[i + 2])
+            }
+        }
+        else if(nav.act == 'move'){
+            if ((nav.dir == -1 && VB[nav.axis] <= 0) ||
+                (nav.dir == 1 && VB[nav.axis] >= DMAX[nav.axis] - VB[nav.axis] + 2)){
+                console.log('cannot move ${nav.name} more');
+                return
+            }
+            tg[nav.axis] = VB[nav.axis] + .5*nav.dir*VB[nav.axis + 2]
+        }
+
+        update()
+
+    }
+},false);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<button id="plus">
+            <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 0 24 24"  xml:space="preserve">
+                <path d="M22,44c-3.309,0-6-2.665-6-5.941V28H5.941C2.665,28,0,25.309,0,22s2.665-6,5.941-6H16V5.941C16,2.665,18.691,0,22,0
+                s6,2.665,6,5.941V16h10.059C41.335,16,44,18.691,44,22s-2.665,6-5.941,6H28v10.059C28,41.335,25.309,44,22,44z M5.941,18
+                C3.805,18,2,19.832,2,22s1.805,4,3.941,4H18v12.059C18,40.195,19.832,42,22,42s4-1.805,4-3.941V26h12.059C40.195,26,42,24.168,42,22
+                s-1.805-4-3.941-4H26V5.941C26,3.805,24.168,2,22,2s-4,1.805-4,3.941V18H5.941z"/>
+            </svg>
+        </button>
+
+        <button id="minus">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 0 24 24" xml:space="preserve">
+                <path d="M38.059,28H5.941C2.665,28,0,25.309,0,22s2.665-6,5.941-6h32.117C41.335,16,44,18.691,44,22S41.335,28,38.059,28z M5.941,18
+                    C3.805,18,2,19.832,2,22s1.805,4,3.941,4h32.117C40.195,26,42,24.168,42,22s-1.805-4-3.941-4H5.941z"/>
+            </svg>
+        </button>
